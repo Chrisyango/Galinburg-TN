@@ -1,0 +1,2 @@
+1554233387
+{"coord":{"lon":-83.22,"lat":42.63},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":53.35,"pressure":1015,"humidity":28,"temp_min":48.99,"temp_max":57},"visibility":16093,"wind":{"speed":12.75,"deg":170,"gust":9.3},"clouds":{"all":1},"dt":1554233366,"sys":{"type":1,"id":6182,"message":0.0074,"country":"US","sunrise":1554203619,"sunset":1554249540},"id":420016112,"name":"Warren","cod":200}
