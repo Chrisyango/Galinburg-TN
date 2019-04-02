@@ -1,9 +1,10 @@
 /*-----------------------------------------------------------------------------------
 
-	Theme Name: SiteName
+	Theme Name: Gatlinburg, TN
+	Frontend Developer: Chris Yang
 	Author Design: Samir Alley @samiralley | Tom Gooden @good3n
 	Author URI: http://www.revize.com/
-	Date: MONTH DAY, 2015
+	Date: April 2, 2019
 
 -----------------------------------------------------------------------------------*/
 
@@ -84,7 +85,7 @@
 	});
 
 	// Menu Arrows
-	$("#nav > li:has(ul)").addClass('first-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
+	// $("#nav > li:has(ul)").addClass('first-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
 
 	// Menu Toggles
 	$("#nav >li>ul,#flyout >li>ul").addClass('first-level');
@@ -289,34 +290,20 @@
 
 	// Owl Slider
 	if(typeof $.fn.owlCarousel !== "undefined"){
-		let departmentsLinkCount = $('.departments-link').length;
-		const departmentsItem = function(num) {
-			return (departmentsLinkCount >= num ? num : departmentsLinkCount);
+		let newsLinkCount = $('.news-link-wrapper').length;
+		const newsItem = function(num) {
+			return (newsLinkCount >= num ? num : newsLinkCount);
 		}
-		$("#departments-links").owlCarousel({
-			loop: departmentsLinkCount > 1 ? true : false,
+		$("#news-links").owlCarousel({
+			loop: newsLinkCount > 1 ? true : false,
 			responsiveClass: true,
-			nav: true,
+			nav: false,
 			autoHeight: true,
 			navText: ['<i class="fa fa-caret-left"></i>', '<i class="fa fa-caret-right"></i>'],
 			margin: 0,
 			responsive: {
 				0: {
-					items: departmentsItem(2),
-				},
-				500: {
-					items: departmentsItem(3),
-				},
-				800: {
-					items: departmentsItem(5),
-				},
-				1100: {
-					items: departmentsItem(7),
-				},
-				1400: {
-					items: departmentsItem(9),
-					loop: false,
-					nav: false
+					items: newsItem(1),
 				}
 			}
 		});

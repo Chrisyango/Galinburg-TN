@@ -109,6 +109,7 @@
 			<a href="./" class="fa fa-facebook"></a>
 		</div><!-- /.social-links -->
 
+		<div tabindex="0" id="search-toggle" class="fa fa-search"></div>
 		<div id="search">
 			<form class="search-form" method="get" action="search.php">
 				<label class="fa fa-search" for="search-input"></label>
@@ -139,7 +140,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<h2><span>an adventrue like no other</span> welcome</h2>
+						<h2><span>an adventure like no other</span> welcome</h2>
 						<a href="./">read more</a>
 						<div class="img-container">
 							<div class="welcome-img" style="background:url('./_assets_/images/welcome2.jpg') center no-repeat;background-size:cover;"></div>
@@ -199,36 +200,38 @@
 						<h2><span>stay up to date</span>latest news</h2>
 						<span>featured news</span>
 						<div id="news-links" class="owl-carousel">
-							<div class="news-link">
-								<div class="news-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
-								<div class="news-link-info">
-									<span>march 11 2019</span>
-									<h3>cursus lorem inceptos consectetur et. fringilla magna commodo</h3>
-									<a href="./">read more</a>
-								</div><!-- /.news-link-info -->
-							</div><!-- /.news-link -->
-							<div class="news-link">
-								<div class="news-link-img" style="background:url('./_assets_/images/news2.jpg') center no-repeat;background-size:cover;"></div>
-								<div class="news-link-info">
-									<span>march 5 2019</span>
-									<h3>donec id elit non mi porta gravida at eget metus</h3>
-									<p>
-										Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet,
-									</p>
-									<a href="./">read more</a>
-								</div><!-- /.news-link-info -->
-							</div><!-- /.news-link -->
-							<div class="news-link">
-								<div class="news-link-img" style="background:url('./_assets_/images/news3.jpg') center no-repeat;background-size:cover;"></div>
-								<div class="news-link-info">
-									<span>march 2 2019</span>
-									<h3>duis mollis, est non commodo luctus, nisi erat porttitor</h3>
-									<p>
-										Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada
-									</p>
-									<a href="./">read more</a>
-								</div><!-- /.news-link-info -->
-							</div><!-- /.news-link -->
+							<div class="news-link-wrapper">
+								<div class="news-link">
+									<div class="news-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+									<div class="news-link-info">
+										<span>march 11 2019</span>
+										<h3>cursus lorem inceptos consectetur et. fringilla magna commodo</h3>
+										<a href="./">read more</a>
+									</div><!-- /.news-link-info -->
+								</div><!-- /.news-link -->
+								<div class="news-link">
+									<div class="news-link-img" style="background:url('./_assets_/images/news2.jpg') center no-repeat;background-size:cover;"></div>
+									<div class="news-link-info">
+										<span>march 5 2019</span>
+										<h3>donec id elit non mi porta gravida at eget metus</h3>
+										<p>
+											Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet,
+										</p>
+										<a href="./">read more</a>
+									</div><!-- /.news-link-info -->
+								</div><!-- /.news-link -->
+								<div class="news-link">
+									<div class="news-link-img" style="background:url('./_assets_/images/news3.jpg') center no-repeat;background-size:cover;"></div>
+									<div class="news-link-info">
+										<span>march 2 2019</span>
+										<h3>duis mollis, est non commodo luctus, nisi erat porttitor</h3>
+										<p>
+											Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada
+										</p>
+										<a href="./">read more</a>
+									</div><!-- /.news-link-info -->
+								</div><!-- /.news-link -->
+							</div><!-- /.news-link-wrapper -->
 						</div><!-- /#news-links -->
 						<a href="./" class="btn">all news</a>
 					</section><!-- /#news -->
