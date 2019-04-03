@@ -279,10 +279,11 @@
 </main>
 
 <footer>
-	<section id="top-footer">
+	<section id="top-footer" class="clearfix">
 		<div class="container">
 			<section id="footer-links">
 				<div id="department-links">
+					<h3>departments</h3>
 					<ul>
 						<li><a href="./">building inspections</a></li>
 						<li><a href="./">building maintenance</a></li>
@@ -303,6 +304,7 @@
 				</div>
 
 				<div id="i-want-to">
+					<h3>i want to...</h3>
 					<ul>
 						<li><a href="./">aenean eu leo quam</a></li>
 						<li><a href="./">pellentesque ornare</a></li>
@@ -321,9 +323,13 @@
 			</section><!-- /#footer-links -->
 
 			<section id="contact">
-				<div style="background:url('./_assets_/images/logo.png') center no-repeat;background-size:cover;"></div>
-				<h4>contact city hall</h4>
-				<span>1230 East Parkway<br>Gatlinburg, TN 37738<br>(865) 436-1400</span>
+				<div id="footer-logo" style="background:url('./_assets_/images/footer-logo.png') center no-repeat;background-size:cover;"></div>
+				<div id="contact-info">
+					<span>contact city hall</span>
+					<span>1230 East Parkway</span>
+					<span>Gatlinburg, TN 37738</span>
+					<span>(865) 436-1400</span>
+				</div>
 			</section><!-- /.#contact -->
 		</div><!-- /.container -->
 	</section><!-- /#top-footer -->
@@ -331,8 +337,7 @@
 	<section id="revize-logo">
 		<div class="container">
 			<span>&copy; 2019 Gatlinburg TN. All Rights reserved.</span>
-			<span>Powered by <a href="https://www.revize.com/" id="revize-logo">revize</a>, the Government Website Experts.</span>
-			<a href="./">login</a>
+			<span>Powered by <a href="https://www.revize.com/" id="revize-logo">revize</a>, The Government Website Experts. <a href="./">login</a></span>
 		</div><!-- /.container -->
 	</section><!-- /#revize-logo -->
 </footer>

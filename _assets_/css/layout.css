@@ -321,6 +321,31 @@ a.quick-link span {font-size: 12px; line-height: 30.42px; letter-spacing: 0.2em;
 #alerts .img-container .alerts-img:first-of-type:after {content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; border-left: 0;}
 #alerts .img-container .alerts-img:last-of-type:after {border-right: none;}
 
+/*--------------- footer ---------------*/
+footer {position: relative; z-index: 51;}
+footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-spacing: 0.1em; color: #1d2734; margin-bottom: 24px;}
+#top-footer {padding: 55px 0 149px;}
+#footer-links {float: left;}
+#footer-links ul {column-count: 2; margin: 0; padding: 0 0 0 4px;}
+#footer-links ul li {display: block; margin: 0;}
+#footer-links ul li a {display: block; font-size: 14px; line-height: 20px; color: #77828f; text-transform: capitalize; text-decoration: none; margin-bottom: 10px;}
+#department-links {float: left; margin-right: 51px;}
+#department-links ul {column-gap: 116px;}
+#i-want-to {float: right;}
+#i-want-to ul {column-gap: 82px;}
+
+#contact {float: right; margin: 53px 31px 0 0;}
+#footer-logo {width: 314px; height: 118px;}
+#contact-info {float: right; text-align: center; position: relative; top: -4px; right: 11px;}
+#contact-info span {display: block; font-size: 14px; line-height: 22px; color: #77828f;}
+#contact-info span:first-of-type {font-weight: 700; text-transform: uppercase;}
+
+#revize-logo {background-color: #1d2734; color: #77828f; padding: 18px 0 16px;}
+#revize-logo a {text-decoration: none; color: #77828f;}
+#revize-logo span:first-of-type {float: left; font-family: 'Open Sans'; font-size: 12px; line-height: 22px;}
+#revize-logo span:last-of-type {float: right; font-size: 14px; line-height: 25.48px;}
+#revize-logo span:last-of-type a:first-of-type {font-family: 'Roboto'; font-size: 14px; font-weight: 700;}
+
 /* -----------------------------------------
 
 #inner
