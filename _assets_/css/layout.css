@@ -19,6 +19,12 @@
 		url('../fonts/liberator/LiberatorHeavy.woff') format('woff'),
 		url('../fonts/liberator/LiberatorHeavy.woff2') format('woff2');
 }
+@font-face {
+	font-family: 'Georgia';
+	src: 
+		url('../fonts/georgia/Georgia.woff') format('woff'),
+		url('../fonts/georgia/Georgia.woff2') format('woff2');
+}
 body{background:#fff;font-size:14px;line-height:1.6;font-family:'Lato', sans-serif;color:#444;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-text-size-adjust:100%}
 
 /* -----------------------------------------
@@ -101,21 +107,21 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
-.btn{padding:10px 20px;background:#0f99ee;color:#fff!important;border:0;border-radius:0;display:inline-block;font-size:12px;font-weight:900!important;text-decoration:none;cursor:pointer;line-height:normal;vertical-align:top;font-family:'Liberator';text-transform:uppercase;transition:background .3s}
+.btn{padding:10px 20px;background:#acce4a;color:#fff!important;border:0;border-radius:0;display:inline-block;font-size:12px;font-weight:900!important;text-decoration:none;cursor:pointer;line-height:normal;vertical-align:top;font-family:'Liberator';text-transform:uppercase;transition:background .3s}
 .button:hover,
 a.button:hover,
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
-.btn:hover{-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;box-shadow:none;background:#0e8cda}
+.btn:hover{-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;box-shadow:none;background:#acce4a}
 .button:active,
 a.button:active,
 button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
-.btn:active{-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;box-shadow:none;background:#0e8cda}
+.btn:active{-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;box-shadow:none;background:#acce4a}
 button::-moz-focus-inner,
 input::-moz-focus-inner{border:0;padding:0}
 
@@ -220,6 +226,12 @@ nav,
 
 /*--------------- #slider ---------------*/
 #slider {position: relative; height: 920px; top: -185px;}
+#slider .container {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -61%); z-index: 51;}
+#slider h1 {font-family: 'Liberator'; font-size: 90px; line-height: 90px; color: #fff; text-transform: uppercase; width: 530px; margin-left: -2.8px;}
+#slider h1 span {display: block; font-family: 'Merriweather'; font-size: 28px; line-height: 30px; font-style: italic; text-transform: capitalize; margin-bottom: 17px; margin-left: 2px;}
+#slider a.btn {position: relative; font-family: 'Liberator'; font-size: 24px; letter-spacing: 0.1em; position: relative; top: -14px; width: 200px; height: 70px; line-height: 70px; padding: 0;}
+#slider a.btn:after {content: '\f105'; font-family: 'FontAwesome'; position: absolute; left: 100%; background-color: #26362f; height: 70px; line-height: 70px; width: 60px; font-size: 30px;}
+#hero-whitespace {position: absolute; bottom: -28px; left: 0; z-index: 51;}
 
 /* -----------------------------------------
 

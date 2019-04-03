@@ -131,7 +131,7 @@
 		<h1><span>the gateway to the</span> great smoky mountains</h1>
 		<a href="./" class="btn">explore</a>
 	</div><!-- /.container -->
-	<div id="hero-whitespace" style="background:url('./_assets_/images/hero-whitespace.png') center no-repeat;background-size:cover;"></div>
+	<img id="hero-whitespace" src="./_assets_/images/hero-whitespace.png" alt="Whitespace">
 </section><!-- /#slider -->
 
 <main id="main">
