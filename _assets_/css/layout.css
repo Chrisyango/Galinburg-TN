@@ -206,7 +206,7 @@ body{overflow-x:hidden}
 
 /*--------------- #nav ---------------*/
 header {position: relative; text-align: right; z-index: 100;}
-#logo {float: left;width: 304px; height: 125px; margin: 30px 0;}
+#logo {float: left;width: 304px; margin: 30px 0;}
 #nav-toggle,
 .toggle,
 .toggle2{display:none}
@@ -439,6 +439,14 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#nav .focused .toggle,#nav .focused .toggle2,#flyout .focused .toggle{display:inline-block;margin-left:8px}
 	#flyout .focused .toggle,#nav .focused .toggle2{-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
 	#flyout,#nav{display:block!important}
+
+}
+
+@media only screen and (max-width:1440px) {
+	
+	/*--------------- #nav ---------------*/
+	#logo {width: 260px; margin: 39px 0;}
+	#nav li a {margin-left: 25px;}
 
 }
 
