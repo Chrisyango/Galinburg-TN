@@ -205,7 +205,7 @@ body{overflow-x:hidden}
 
 
 /*--------------- #nav ---------------*/
-header {position: relative; text-align: right; z-index: 100; background-image: linear-gradient(rgba(29, 39, 52,0.6), transparent)}
+header {position: relative; text-align: right; z-index: 100;}
 #logo {float: left;width: 304px; height: 125px; margin: 30px 0;}
 #nav-toggle,
 .toggle,
@@ -221,7 +221,7 @@ nav,
 .social-links a {text-decoration: none; font-size: 20px; color: #fff; margin-left: 23px;}
 .social-links a:first-of-type {margin: 0;}
 
-#search-toggle {display: inline-block; font-size: 22px; margin-top: 81px; margin-left: 29px;}
+#search-toggle {display: inline-block; font-size: 22px; margin-top: 81px; margin-left: 29px; color: #fff;}
 #search {display: none;}
 
 /*--------------- #slider ---------------*/
@@ -390,7 +390,7 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 .btn-google:hover{border-color:#D34836}
 .btn-reddit:hover{border-color:#ff5700}
 .btn-lg{font-size:16px;padding:14px 30px;border:0;border-radius:3px}
-.floating-share-btn{position:fixed;z-index:99998;top:40%;right:0;line-height:1.8;border-radius:0;border:0;background:#5f695f!important;color:#fff!important;padding:10px;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center}
+.floating-share-btn{position:fixed;z-index:99998;top:40%;right:0;line-height:1.8;border-radius:0;border:0;background:#26362f!important;color:#fff!important;padding:10px;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center}
 .floating-share-btn span{display:block}
 
 /* -----------------------------------------
@@ -402,6 +402,8 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 .bx-viewport,
 .bxslider li,
 .bx-wrapper{height:100%!important}
+
+.bxslider li:after {content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-image: linear-gradient(rgba(29, 39, 52,0.6) 0%, transparent 35%)}
 
 .bx-wrapper{position:relative;margin:0;padding:0;*zoom:1;overflow:hidden}
 .bx-wrapper *{margin:0;padding:0}
