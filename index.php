@@ -147,6 +147,7 @@
 						<a href="./">read more <span>&rarr;</span></a>
 						<div class="img-container">
 							<div class="welcome-img" style="background:url('./_assets_/images/welcome2.jpg') center no-repeat;background-size:cover;"></div>
+							<span>- caption here</span>
 							<div class="welcome-img" style="background:url('./_assets_/images/welcome3.jpg') center no-repeat;background-size:cover;"></div>
 							<span>- caption here</span>
 						</div><!-- /.img-container -->
@@ -203,7 +204,7 @@
 					<section id="news" class="col-md-8">
 						<div id="news-circle" style="background:url('./_assets_/images/news-circle.png') center no-repeat;background-size:cover;"></div>
 						<h2><span>stay up to date</span>latest news</h2>
-						<span>featured news</span>
+						<span>- featured news</span>
 						<div id="news-links" class="owl-carousel">
 							<div class="news-link-wrapper">
 								<div class="news-link">
