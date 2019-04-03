@@ -233,6 +233,24 @@ nav,
 #slider a.btn:after {content: '\f105'; font-family: 'FontAwesome'; position: absolute; left: 100%; background-color: #26362f; height: 70px; line-height: 70px; width: 60px; font-size: 30px;}
 #hero-whitespace {position: absolute; bottom: -28px; left: 0; z-index: 51;}
 
+/*--------------- #content ---------------*/
+#content {margin-top: -185px;}
+
+#welcome {padding-top: 93px;}
+#welcome h2 {font-family: 'Liberator'; font-size: 72px; line-height: 67.52px; text-transform: uppercase; color: #1d2734; margin-left: -2px; margin-bottom: 12px;}
+#welcome h2 span {display: block; font-family: 'Merriweather'; font-size: 18px; line-height: 24px; color: #4a7153; text-transform: lowercase; margin-bottom: 16px; margin-left: 3px;}
+#welcome h2::first-letter {text-transform: capitalize;}
+#welcome-left p {font-size: 16px; line-height: 26px; color: #1d2734; padding-right: 180px; margin-bottom: 21px;}
+#welcome-left a {font-size: 16px; line-height: 24px; color: #e33434; text-transform: capitalize; text-decoration: none; margin-left: -2px;}
+#welcome-left a span {font-size: 18px;}
+#welcome-left .img-container {position: relative;}
+#welcome-left .img-container .welcome-img {position: absolute; top: 95px; left: 0; width: 349px; height: 279px;}
+#welcome-left .img-container .welcome-img:last-of-type {width: 191px; top: 197px; left: unset; right: 30px;}
+#welcome-left .img-container span {display: inline-block; position: absolute; top: 301px; left: -78px; font-size: 12px; line-height: 24px; letter-spacing: 0.1em; font-weight: 700; color: #1d2734; text-transform: uppercase; transform: rotate(-90deg);}
+#welcome-right .welcome-img {position: relative; width: 630px; height: 1094px; margin-top: -213px; z-index: 51;}
+#welcome-right .welcome-img:after {content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 10px solid #fff;}
+#welcome-right span {display: inline-block; position: absolute; top: -22px; left: -64px; font-size: 12px; line-height: 24px; letter-spacing: 0.1em; font-weight: 700; color: #1d2734; text-transform: uppercase; transform: rotate(-90deg);}
+
 /* -----------------------------------------
 
 #inner

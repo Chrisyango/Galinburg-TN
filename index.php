@@ -135,24 +135,27 @@
 </section><!-- /#slider -->
 
 <main id="main">
-	<section id="content" style="background:url('./_assets_/images/content-bg.jpg') center no-repeat;background-size:cover;">
+	<section id="content">
 		<section id="welcome">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
+					<div id="welcome-left" class="col-md-6">
 						<h2><span>an adventure like no other</span> welcome</h2>
-						<a href="./">read more</a>
+						<p>
+							Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.
+						</p>
+						<a href="./">read more <span>&rarr;</span></a>
 						<div class="img-container">
 							<div class="welcome-img" style="background:url('./_assets_/images/welcome2.jpg') center no-repeat;background-size:cover;"></div>
 							<div class="welcome-img" style="background:url('./_assets_/images/welcome3.jpg') center no-repeat;background-size:cover;"></div>
 							<span>- caption here</span>
 						</div><!-- /.img-container -->
-					</div><!-- /.col-md-6 -->
+					</div><!-- /#welcome-left.col-md-6 -->
 					
-					<div class="col-md-6">
+					<div id="welcome-right" class="col-md-6">
 						<div class="welcome-img" style="background:url('./_assets_/images/welcome1.jpg') center no-repeat;background-size:cover;"></div>
 						<span>- caption here</span>
-					</div><!-- /.col-md-6 -->
+					</div><!-- /#welcome-right.col-md-6 -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section><!-- /#welcome -->
@@ -206,7 +209,7 @@
 									<div class="news-link-info">
 										<span>march 11 2019</span>
 										<h3>cursus lorem inceptos consectetur et. fringilla magna commodo</h3>
-										<a href="./">read more</a>
+										<a href="./">read more &rarr;</a>
 									</div><!-- /.news-link-info -->
 								</div><!-- /.news-link -->
 								<div class="news-link">
@@ -217,7 +220,7 @@
 										<p>
 											Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet,
 										</p>
-										<a href="./">read more</a>
+										<a href="./">read more &rarr;</a>
 									</div><!-- /.news-link-info -->
 								</div><!-- /.news-link -->
 								<div class="news-link">
@@ -228,7 +231,7 @@
 										<p>
 											Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada
 										</p>
-										<a href="./">read more</a>
+										<a href="./">read more &rarr;</a>
 									</div><!-- /.news-link-info -->
 								</div><!-- /.news-link -->
 							</div><!-- /.news-link-wrapper -->
