@@ -253,8 +253,8 @@
 		</section><!-- /#news-events -->
 
 		<section id="alerts">
-			<div id="alerts-bg" style="background:url('./_assets_/images/alerts-bg.jpg') center no-repeat;background-size:cover;"></div>
-			<div id="alerts-whitespace" style="background:url('./_assets_/images/alerts-whitespace.jpg') center no-repeat;background-size:cover;"></div>
+			<div id="alerts-bg" style="background:url('./_assets_/images/alerts-bg.png') center no-repeat;background-size:cover;"></div>
+			<img id="alerts-whitespace" src="./_assets_/images/alerts-whitespace.png">
 			<div class="img-container">
 				<div class="alerts-img" style="background:url('./_assets_/images/alerts1.jpg') center no-repeat;background-size:cover;"></div>
 				<div class="alerts-img" style="background:url('./_assets_/images/alerts2.jpg') center no-repeat;background-size:cover;"></div>
@@ -265,12 +265,14 @@
 			</div><!-- /.img-container -->
 
 			<div class="container">
-				<form>
-					<label for="signup-input"><span>stay in the loop</span>emergency alerts sign up</label>
-					<input name="q" class="form-control" placeholder="Your email@email.com" id="signup-input">
-					<button class="btn">subscribe</button>
-					<span>spam is no excepted</span>
-				</form>
+				<div class="row">
+					<form class="col-md-6 col-md-offset-3">
+						<label for="signup-input"><span>stay in the loop</span>emergency alerts sign up</label>
+						<input name="q" class="form-control" placeholder="Your email@email.com" id="signup-input">
+						<button class="btn">subscribe</button>
+						<span>spam is not excepted</span>
+					</form>
+				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section><!-- /#alerts -->
 	</section><!-- /#content -->
