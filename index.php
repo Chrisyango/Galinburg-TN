@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400i|Roboto:700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400i|Open+Sans:400,700|Roboto:700">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
 	<link rel="shortcut icon" href="_assets_/images/favicon.ico">
@@ -36,7 +36,7 @@
 </head>
 <body id="homepage">
 
-<header class="clearfix">
+<header>
 	<a href="#main" id="skip" tabindex="0">SKIP TO CONTENT</a>
 
 	<div class="container">
@@ -123,8 +123,8 @@
 <section id="slider">
 	<ul class="bxslider">
 		<li style="background: url('./_assets_/images/hero1.jpg') center no-repeat;background-size:cover;"></li>
-		<li style="background: url('./_assets_/images/hero2.jpg') center no-repeat;background-size:cover;"></li>
-		<li style="background: url('./_assets_/images/hero3.jpg') center no-repeat;background-size:cover;"></li>
+		<!-- <li style="background: url('./_assets_/images/hero2.jpg') center no-repeat;background-size:cover;"></li>
+		<li style="background: url('./_assets_/images/hero3.jpg') center no-repeat;background-size:cover;"></li> -->
 	</ul><!-- /.bxslider -->
 
 	<div class="container">
