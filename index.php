@@ -162,37 +162,39 @@
 
 		<section id="quick-links">
 			<div id="quick-links-bg" style="background:url('./_assets_/images/ql-bg.png') center no-repeat;background-size:cover;"></div>
-			<div class="container">
-				<div class="row">
-					<div class="img-container col-md-6">
-						<div class="quick-link-img" style="background:url('./_assets_/images/ql-img1.jpg') center no-repeat;background-size:cover;"></div>
-						<div class="quick-link-img" style="background:url('./_assets_/images/ql-img2.jpg') center no-repeat;background-size:cover;"></div>
-					</div><!-- /.img-container.col-md-6 -->
+			<div id="quick-links-container-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="img-container col-md-6">
+							<div class="quick-link-img" style="background:url('./_assets_/images/ql-img1.jpg') center no-repeat;background-size:cover;"></div>
+							<div class="quick-link-img" style="background:url('./_assets_/images/ql-img2.jpg') center no-repeat;background-size:cover;"></div>
+						</div><!-- /.img-container.col-md-6 -->
 
-					<div id="quick-links-wrapper" class="col-md-5 col-md-offset-1">
-						<a href="./" class="quick-link">
-							<div class="quick-link-icon" style="background:url('./_assets_/images/ql1.png') center no-repeat;background-size:cover;"></div>
-							<h3>document center</h3>
-							<span>view</span>
-						</a><!-- /.quick-links -->
-						<a href="./" class="quick-link">
-							<div class="quick-link-icon" style="background:url('./_assets_/images/ql2.png') center no-repeat;background-size:cover;"></div>
-							<h3>economic development</h3>
-							<span>view</span>
-						</a><!-- /.quick-links -->
-						<a href="./" class="quick-link">
-							<div class="quick-link-icon" style="background:url('./_assets_/images/ql3.png') center no-repeat;background-size:cover;"></div>
-							<h3>connect tennessee</h3>
-							<span>view</span>
-						</a><!-- /.quick-links -->
-						<a href="./" class="quick-link">
-							<div class="quick-link-icon" style="background:url('./_assets_/images/ql4.png') center no-repeat;background-size:cover;"></div>
-							<h3>flood information</h3>
-							<span>view</span>
-						</a><!-- /.quick-links -->
-					</div><!-- /#quick-links-wrapper.owl-carousel -->
-				</div><!-- /.row -->
-			</div><!-- /.container -->
+						<div id="quick-links-wrapper" class="col-md-6">
+							<a href="./" class="quick-link">
+								<div class="quick-link-icon" style="background:url('./_assets_/images/ql1.png') center no-repeat;background-size:cover;"></div>
+								<h3>document center</h3>
+								<span>view <span>&rarr;</span></span>
+							</a><!-- /.quick-links -->
+							<a href="./" class="quick-link">
+								<div class="quick-link-icon" style="background:url('./_assets_/images/ql2.png') center no-repeat;background-size:cover;"></div>
+								<h3>economic development</h3>
+								<span>view <span>&rarr;</span></span>
+							</a><!-- /.quick-links -->
+							<a href="./" class="quick-link">
+								<div class="quick-link-icon" style="background:url('./_assets_/images/ql3.png') center no-repeat;background-size:cover;"></div>
+								<h3>connect tennessee</h3>
+								<span>view <span>&rarr;</span></span>
+							</a><!-- /.quick-links -->
+							<a href="./" class="quick-link">
+								<div class="quick-link-icon" style="background:url('./_assets_/images/ql4.png') center no-repeat;background-size:cover;"></div>
+								<h3>flood information</h3>
+								<span>view <span>&rarr;</span></span>
+							</a><!-- /.quick-links -->
+						</div><!-- /#quick-links-wrapper.owl-carousel -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</div><!-- /#quick-links-container-wrapper -->
 		</section><!-- /#quick-links -->
 
 		<section id="news-events">
