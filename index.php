@@ -242,7 +242,8 @@
 					</section><!-- /#news -->
 
 					<section id="events" class="col-md-4">
-						<h2>upcoming events</h2>
+						<div id="events-circle" style="background:url('./_assets_/images/events-circle.png') center no-repeat;background-size:cover;"></div>
+						<h2><span>get involved</span>latest events</h2>
 						<img src="./_assets_/images/events.png" alt="Events">
 						<a href="./" class="btn">all events</a>
 					</section><!-- /#events -->
