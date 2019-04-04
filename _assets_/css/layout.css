@@ -257,15 +257,15 @@ nav,
 #welcome-right .welcome-img span {display: inline-block; position: absolute; top: 191px; left: -79px; font-size: 12px; line-height: 24px; letter-spacing: 0.1em; font-weight: 700; color: #1d2734; text-transform: uppercase; transform: rotate(-90deg);}
 
 #quick-links {position: relative; padding: 196px 20px;}
-#quick-links-bg {position: absolute; top: -255px; left: 0; width: 100%; max-width: 100%; height: 1998px; opacity: 0.52; z-index: -1;}
+#quick-links-bg {position: absolute; top: -255px; left: 0; width: 100%; max-width: 100%; height: 1998px; opacity: 0.52; z-index: -2;}
 #quick-links-container-wrapper {position: relative; background-color: #f7fbee; padding: 110px 0 78px;}
-#quick-links .img-container .quick-link-img {width: 520px; height: 703px; position: absolute; top: -224px;}
-#quick-links .img-container .quick-link-img:last-of-type {width: 410px; height: 373px; top: 308px; right: 14px;}
+#quick-links .img-container .quick-link-img {width: 520px; height: 703px; position: absolute; top: -224px; left: 15px;}
+#quick-links .img-container .quick-link-img:last-of-type {width: 410px; height: 373px; top: 308px; left: 236px;}
 #quick-links .img-container .quick-link-img:after {content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 10px solid #fff;}
-#quick-links-wrapper {position: relative; top: -6px; left: 37px; padding: 0 87px 0 61px;}
+#quick-links-wrapper {position: relative; top: -6px; left: 37px; padding: 0 87px 0 61px; font-size: 0;}
 #quick-links-wrapper:before {content: ''; position: absolute; top: 50%; left: 87px; height: 1px; width: 458px; background-color: rgba(123,141,113,0.1);}
 #quick-links-wrapper:after {content: ''; position: absolute; top: 0; left: 48%; width: 1px; height: 100%; background-color: rgba(123,141,113,0.1);}
-a.quick-link {text-decoration: none; text-transform: uppercase; width: 50%; float: left; text-align: center; padding: 32px 13px 49px 0;}
+a.quick-link {text-decoration: none; text-transform: uppercase; width: 50%; display: inline-block; text-align: center; padding: 32px 13px 49px 0;}
 a.quick-link .quick-link-icon {width: 48px; height: 48px; margin: 0 auto;}
 a.quick-link h3 {font-family: 'Liberator'; font-size: 32px; line-height: 30px; color:#1d2734; margin: 28px 0 9px;}
 a.quick-link span {font-size: 12px; line-height: 30.42px; letter-spacing: 0.2em; font-weight: 700; color: #f27428;}
@@ -455,6 +455,8 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	/*--------------- #content ---------------*/
 	#welcome-left .img-container {left: 28px;}
 	#welcome-right .welcome-img {width: auto;}
+	
+	#quick-links-wrapper {left: 0;}
 
 }
 
@@ -472,6 +474,13 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 
 	/*--------------- #content ---------------*/
 	#welcome-left p {padding-right: 0;}
+
+	#quick-links-wrapper {padding: 0;}
+	#quick-links-wrapper:before {left: 15px; width: calc(100% - 30px)}
+	#quick-links-wrapper:after {left: 50%; top: 15px; height: calc(100% - 30px);}
+	#quick-links .img-container .quick-link-img {width: 400px; height: 600px; top: -95px;}
+	#quick-links .img-container .quick-link-img:last-of-type {width: 300px; height: 275px; top: 300px; left: 180px;}
+	a.quick-link {padding-left: 30px; padding-right: 30px;}
 
 }
 
@@ -539,6 +548,15 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#welcome-right .welcome-img {margin-top: 0; width: 100%; height: unset; padding-bottom: 100%;}
 	#welcome-right .welcome-img span {transform: rotate(0); top: unset; left: 15px; bottom: -30px;}
 
+	#quick-links {padding-top: 0; padding-bottom: 30px;}
+	#quick-links-bg {height: 1200px;}
+	#quick-links-container-wrapper {padding: 0;}
+	#quick-links .img-container {top: -30px; margin-bottom: -140px;}
+	#quick-links .img-container .quick-link-img {position: relative; top: 0; left: -50px; display: block; width: 400px; height: 500px; margin: 0 auto;}
+	#quick-links .img-container .quick-link-img:last-of-type {top: -130px; left: 100px;}
+	a.quick-link {padding: 30px;}
+	a.quick-link h3 {font-size: 28px;}
+
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -567,6 +585,15 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#welcome-right {float: none; width: 70%; top: 50px;}
 	#welcome-right .welcome-img {padding-bottom: 75%;}
 
+	#quick-links {padding-top: 125px;}
+	#quick-links .img-container .quick-link-img {width: 300px; height: 400px; left: -54px;}
+	#quick-links .img-container .quick-link-img:last-of-type {width: 275px; height: 250px; left: 66px;}
+	#quick-links .img-container .quick-link-img:after {top: -1px; bottom: -1px; left: -1px; right: -1px; border: 11px solid #fff;}
+	a.quick-link {padding: 15px;}
+	a.quick-link .quick-link-icon {width: 40px; height: 40px;}
+	a.quick-link h3 {font-size: 24px; margin: 15px 0 0;}
+	a.quick-link span {font-size: 11px;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -585,6 +612,10 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	/*--------------- #content ---------------*/
 	#welcome h2 {font-size: 45px; line-height: 45px; margin-bottom: 5px;}
 	#welcome h2 span {font-size: 14px; margin-bottom: 5px;}
+
+	#quick-links .img-container .quick-link-img {width: 240px; height: 350px; left: -24px;}
+	#quick-links .img-container .quick-link-img:last-of-type {width: 225px; height: 200px; left: 31px;}
+	a.quick-link h3 {font-size: 20px;}
 
 }
 
