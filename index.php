@@ -40,7 +40,7 @@
 	<a href="#main" id="skip" tabindex="0">SKIP TO CONTENT</a>
 
 	<div class="container">
-		<a href="./" id="logo">
+		<a href="./" id="logo" class="clearfix">
 			<img src="./_assets_/images/logo.png" alt="Logo">
 		</a><!-- /.logo -->
 

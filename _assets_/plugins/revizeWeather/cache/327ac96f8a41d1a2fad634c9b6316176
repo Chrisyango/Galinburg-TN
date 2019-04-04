@@ -1,2 +1,2 @@
-1554322163
-{"coord":{"lon":-83.22,"lat":42.63},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":51.46,"pressure":1023,"humidity":15,"temp_min":48,"temp_max":55},"visibility":16093,"wind":{"speed":21.92,"deg":290,"gust":14.9},"clouds":{"all":1},"dt":1554322083,"sys":{"type":1,"id":6182,"message":0.0071,"country":"US","sunrise":1554289914,"sunset":1554336008},"id":420016112,"name":"Warren","cod":200}
+1554384422
+{"coord":{"lon":-83.22,"lat":42.63},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":33.76,"pressure":1033,"humidity":55,"temp_min":32,"temp_max":36},"visibility":16093,"wind":{"speed":9.17,"deg":70},"clouds":{"all":1},"dt":1554384235,"sys":{"type":1,"id":6182,"message":0.0066,"country":"US","sunrise":1554376210,"sunset":1554422476},"id":420016112,"name":"Warren","cod":200}
