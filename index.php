@@ -140,22 +140,21 @@
 			<div class="container">
 				<div class="row">
 					<div id="welcome-left" class="col-md-6">
-						<h2><span>an adventure like no other</span> welcome</h2>
-						<p>
-							Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.
-						</p>
-						<a href="./">read more <span>&rarr;</span></a>
-						<div class="img-container">
-							<div class="welcome-img" style="background:url('./_assets_/images/welcome2.jpg') center no-repeat;background-size:cover;"></div>
-							<span>- caption here</span>
-							<div class="welcome-img" style="background:url('./_assets_/images/welcome3.jpg') center no-repeat;background-size:cover;"></div>
-							<span>- caption here</span>
+						<div id="welcome-info" class="clearfix">
+							<h2><span>an adventure like no other</span> welcome</h2>
+							<p>
+								Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.
+							</p>
+							<a href="./">read more <span>&rarr;</span></a>
+						</div><!-- /#welcome-info -->
+						<div class="img-container clearfix">
+							<div class="welcome-img" style="background:url('./_assets_/images/welcome2.jpg') center no-repeat;background-size:cover;"><span>- caption here</span></div>
+							<div class="welcome-img" style="background:url('./_assets_/images/welcome3.jpg') center no-repeat;background-size:cover;"><span>- caption here</span></div>
 						</div><!-- /.img-container -->
 					</div><!-- /#welcome-left.col-md-6 -->
 					
 					<div id="welcome-right" class="col-md-6">
-						<div class="welcome-img" style="background:url('./_assets_/images/welcome1.jpg') center no-repeat;background-size:cover;"></div>
-						<span>- caption here</span>
+						<div class="welcome-img" style="background:url('./_assets_/images/welcome1.jpg') center no-repeat;background-size:cover;"><span>- caption here</span></div>
 					</div><!-- /#welcome-right.col-md-6 -->
 				</div><!-- /.row -->
 			</div><!-- /.container -->

@@ -248,16 +248,16 @@ nav,
 #welcome-left a {font-size: 16px; line-height: 24px; color: #e33434; text-transform: capitalize; text-decoration: none; margin-left: -2px;}
 #welcome-left a span {font-size: 18px;}
 #welcome-left .img-container {position: relative;}
-#welcome-left .img-container .welcome-img {position: absolute; top: 95px; left: 0; width: 349px; height: 279px;}
-#welcome-left .img-container .welcome-img:last-of-type {width: 191px; top: 197px; left: unset; right: 30px;}
-#welcome-left .img-container span {display: inline-block; position: relative; top: 301px; left: -78px; font-size: 12px; line-height: 24px; letter-spacing: 0.1em; font-weight: 700; color: #1d2734; text-transform: uppercase; transform: rotate(-90deg);}
-#welcome-left .img-container span:last-of-type {transform: rotate(0); top: 489px; left: 302px;}
+#welcome-left .img-container .welcome-img {position: relative; top: 95px; left: 0; width: 55.4%; padding-bottom: 44.3%; float: left;}
+#welcome-left .img-container .welcome-img:last-of-type {width: 30.3%; top: 197px; left: unset; margin-left: 9.5%;}
+#welcome-left .img-container .welcome-img span {display: inline-block; position: absolute; bottom: 49px; left: -78px; font-size: 12px; line-height: 24px; letter-spacing: 0.1em; font-weight: 700; color: #1d2734; text-transform: uppercase; transform: rotate(-90deg);}
+#welcome-left .img-container .welcome-img:last-of-type span {transform: rotate(0); bottom: -37px; left: 5px;}
 #welcome-right .welcome-img {position: relative; width: 630px; height: 1094px; margin-top: -213px; z-index: 51;}
-#welcome-right .welcome-img:after {content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 10px solid #fff;}
-#welcome-right span {display: inline-block; position: absolute; top: -22px; left: -64px; font-size: 12px; line-height: 24px; letter-spacing: 0.1em; font-weight: 700; color: #1d2734; text-transform: uppercase; transform: rotate(-90deg);}
+#welcome-right .welcome-img:after {content: ''; position: absolute; top: -1px; bottom: -1px; left: -1px; right: -1px; border: 11px solid #fff;}
+#welcome-right .welcome-img span {display: inline-block; position: absolute; top: 191px; left: -79px; font-size: 12px; line-height: 24px; letter-spacing: 0.1em; font-weight: 700; color: #1d2734; text-transform: uppercase; transform: rotate(-90deg);}
 
 #quick-links {position: relative; padding: 196px 20px;}
-#quick-links-bg {position: absolute; top: -255px; left: 0; width: 100%; max-width: 100%; height: 1998px; opacity: 0.52;}
+#quick-links-bg {position: absolute; top: -255px; left: 0; width: 100%; max-width: 100%; height: 1998px; opacity: 0.52; z-index: -1;}
 #quick-links-container-wrapper {position: relative; background-color: #f7fbee; padding: 110px 0 78px;}
 #quick-links .img-container .quick-link-img {width: 520px; height: 703px; position: absolute; top: -224px;}
 #quick-links .img-container .quick-link-img:last-of-type {width: 410px; height: 373px; top: 308px; right: 14px;}
@@ -452,6 +452,10 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#logo {width: 260px; margin: 39px 0;}
 	#nav li a {margin-left: 25px;}
 
+	/*--------------- #content ---------------*/
+	#welcome-left .img-container {left: 28px;}
+	#welcome-right .welcome-img {width: auto;}
+
 }
 
 @media only screen and (max-width:1280px) {
@@ -461,6 +465,13 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#nav li a {margin-left: 10px; margin-right: 10px; font-size: 15px;}
 	.social-links a {font-size: 18px;}
 	#search-toggle {font-size: 20px; margin-left: 20px}
+
+	/*--------------- #slider ---------------*/
+	#slider {height: 800px;}
+	#slider .container {transform: translate(-50%, -55%);}
+
+	/*--------------- #content ---------------*/
+	#welcome-left p {padding-right: 0;}
 
 }
 
@@ -511,6 +522,23 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#flyout ul span{width:100%}
 	#flyout li:hover > ul{display:none}
 
+	/*--------------- #slider ---------------*/
+	#slider .container {transform: translate(-50%, -25%);}
+	#slider h1 {font-size: 75px; line-height: 75px;}
+	#slider h1 span {font-size: 24px; line-height: 26px;}
+	#hero-whitespace {bottom: -1px;}
+	#slider a.btn {font-size: 22px; width: 180px; height: 60px; line-height: 65px}
+	#slider a.btn:after {height: 60px; line-height: 60px;}
+
+	/*--------------- #content ---------------*/
+	#welcome {padding-top: 50px;}
+	#welcome h2 {font-size: 62px; line-height: 62px;}
+	#welcome h2 span {font-size: 16px; line-height: 20px; margin-bottom: 12px;}
+	#welcome-left .img-container {width: 55%; left: 32px;}
+	#welcome-right {width: 40%; float: right; top: -190px;}
+	#welcome-right .welcome-img {margin-top: 0; width: 100%; height: unset; padding-bottom: 100%;}
+	#welcome-right .welcome-img span {transform: rotate(0); top: unset; left: 15px; bottom: -30px;}
+
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -523,13 +551,42 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	.share-btns a{height:auto;padding:10px;width:100%;font-size:12px;white-space:nowrap;overflow:hidden}
 	.share-btns i{display:block;line-height:50px!important;font-size:20px}
 
+	/*--------------- #slider ---------------*/
+	#slider {height: 700px;}
+	#slider h1 {font-size: 65px; line-height: 65px; width: 400px;}
+	#slider h1 span {font-size: 22px; line-height: 24px;}
+	#slider a.btn {font-size: 20px; width: 160px; height: 55px; line-height: 60px}
+	#slider a.btn:after {width: 55px; height: 55px; line-height: 55px;}
+
+	/*--------------- #content ---------------*/
+	#welcome h2 {font-size: 58px; line-height: 58px;}
+	#welcome-left p,
+	#welcome-left a {font-size: 14px;}
+	#welcome-left a span {font-size: 16px;}
+	#welcome-left .img-container {width: 100%; top: -55px;}
+	#welcome-right {float: none; width: 70%; top: 50px;}
+	#welcome-right .welcome-img {padding-bottom: 75%;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width:480px) and (max-width:767px) {}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width:479px) {}
+@media only screen and (max-width:479px) {
+
+	/*--------------- #slider ---------------*/
+	#slider .container {transform: translate(-50%, -25%);}
+	#slider h1 {font-size: 50px; line-height: 50px; width: auto;}
+	#slider h1 span {font-size: 20px; line-height: 22px;}
+	#slider a.btn {font-size: 18px; width: 140px; height: 50px; line-height: 55px}
+	#slider a.btn:after {width: 50px; height: 50px; line-height: 50px;}
+
+	/*--------------- #content ---------------*/
+	#welcome h2 {font-size: 45px; line-height: 45px; margin-bottom: 5px;}
+	#welcome h2 span {font-size: 14px; margin-bottom: 5px;}
+
+}
 
 @media print {
 	header,
