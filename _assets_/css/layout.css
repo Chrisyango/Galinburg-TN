@@ -299,7 +299,7 @@ a.quick-link span {font-size: 12px; line-height: 30.42px; letter-spacing: 0.2em;
 #events-circle {width: 111px; height: 91px;}
 #events h2 {margin: 13px 0 35px -3px;}
 #events h2 span {position: relative; top: 2px; left: 3px;}
-#events a.btn {margin-top: 49px; width: 240px;}
+#events a.btn {display: block; margin-top: 49px; width: 240px;}
 
 #alerts {position: relative; background-color: #1d2734; margin-top: 158px; padding: 202px 0 135px;}
 #alerts-bg {position: absolute; top: 130px; left: 0; right: 0; height: 758px; opacity: 0.1;}
@@ -557,6 +557,19 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	a.quick-link {padding: 30px;}
 	a.quick-link h3 {font-size: 28px;}
 
+	#news h2 {font-size: 44px;}
+	.news-link-wrapper {padding: 0;}
+	#news-events a.btn {font-size: 22px; height: 60px; line-height: 65px;}
+	#news-events a.btn:after {height: 60px; line-height: 60px;}
+	#news a.btn {width: 180px;}
+	#events a.btn {width: 220px;}
+	#news-events h2 span,
+	.news-link-info span {font-size: 17px;}
+	.news-link-info h3 {font-size: 26px;}
+	.news-link-info p {font-size: 15px;}
+	.news-link:first-of-type .news-link-info h3 {font-size: 30px; line-height: 30px;}
+	.news-link-info a {font-size: 13px;}
+
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -594,6 +607,20 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	a.quick-link h3 {font-size: 24px; margin: 15px 0 0;}
 	a.quick-link span {font-size: 11px;}
 
+	#news h2 {font-size: 40px;}
+	#news-events a.btn {font-size: 20px; height: 55px; line-height: 60px;}
+	#news-events a.btn:after {height: 55px; line-height: 55px;}
+	#news a.btn {width: 160px;}
+	#events a.btn {width: 200px;}
+	#news-events h2 span,
+	.news-link-info span {font-size: 16px;}
+	.news-link .news-link-info {padding-bottom: 46px; top: -1px; width: 326px;}
+	.news-link:first-of-type .news-link-info {position: static; width: 100%; padding: 15px;}
+	.news-link-info h3 {font-size: 24px;}
+	.news-link-info p {font-size: 14px;}
+	.news-link:first-of-type .news-link-info h3 {font-size: 26px; line-height: 26px;}
+	.news-link-info a {font-size: 12px;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -616,6 +643,9 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#quick-links .img-container .quick-link-img {width: 240px; height: 350px; left: -24px;}
 	#quick-links .img-container .quick-link-img:last-of-type {width: 225px; height: 200px; left: 31px;}
 	a.quick-link h3 {font-size: 20px;}
+
+	.news-link .news-link-info {position: static; width: 100%; padding: 15px;}
+	.news-link .news-link-img {width: 100%; height: 250px;}
 
 }
 
