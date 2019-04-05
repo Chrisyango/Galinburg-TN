@@ -557,18 +557,21 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	a.quick-link {padding: 30px;}
 	a.quick-link h3 {font-size: 28px;}
 
-	#news h2 {font-size: 44px;}
-	.news-link-wrapper {padding: 0;}
+	#news-events h2 {font-size: 44px;line-height: 60px; margin-bottom: 0;}
 	#news-events a.btn {font-size: 22px; height: 60px; line-height: 65px;}
 	#news-events a.btn:after {height: 60px; line-height: 60px;}
 	#news a.btn {width: 180px;}
-	#events a.btn {width: 220px;}
 	#news-events h2 span,
 	.news-link-info span {font-size: 17px;}
 	.news-link-info h3 {font-size: 26px;}
 	.news-link-info p {font-size: 15px;}
 	.news-link:first-of-type .news-link-info h3 {font-size: 30px; line-height: 30px;}
 	.news-link-info a {font-size: 13px;}
+	.news-link-wrapper {padding: 0;}
+
+	#events {padding-top: 58px;}
+	#events a.btn {width: 220px;}
+	#events h2 {margin-bottom: 30px;}
 
 }
 
@@ -607,11 +610,10 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	a.quick-link h3 {font-size: 24px; margin: 15px 0 0;}
 	a.quick-link span {font-size: 11px;}
 
-	#news h2 {font-size: 40px;}
+	#news-events h2 {font-size: 40px; line-height: 55px;}
 	#news-events a.btn {font-size: 20px; height: 55px; line-height: 60px;}
-	#news-events a.btn:after {height: 55px; line-height: 55px;}
+	#news-events a.btn:after {width: 55px; height: 55px; line-height: 55px;}
 	#news a.btn {width: 160px;}
-	#events a.btn {width: 200px;}
 	#news-events h2 span,
 	.news-link-info span {font-size: 16px;}
 	.news-link .news-link-info {padding-bottom: 46px; top: -1px; width: 326px;}
@@ -620,6 +622,8 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	.news-link-info p {font-size: 14px;}
 	.news-link:first-of-type .news-link-info h3 {font-size: 26px; line-height: 26px;}
 	.news-link-info a {font-size: 12px;}
+
+	#events a.btn {width: 200px;}
 
 }
 
@@ -644,6 +648,8 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#quick-links .img-container .quick-link-img:last-of-type {width: 225px; height: 200px; left: 31px;}
 	a.quick-link h3 {font-size: 20px;}
 
+	#news-events a.btn {font-size: 18px; height: 50px; line-height: 55px;}
+	#news-events a.btn:after {width: 50px; height: 50px; line-height: 50px;}
 	.news-link .news-link-info {position: static; width: 100%; padding: 15px;}
 	.news-link .news-link-img {width: 100%; height: 250px;}
 
