@@ -361,26 +361,32 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 #freeform #logo {width: 216px; position: absolute; top: -7px; left: -28px; margin: 0;}
 #freeform .social-links {margin-left: 121px;}
 #freeform #search-toggle {margin-top: 0;}
-#freeform .bxslider li:after {background-image: none; background-color: #122336; opacity: 0.2;}
 
+#freeform main {margin-top: -94px;}
 #side-background {position: absolute; top: 0; bottom: 0; left: 0; background-color: #d4e0ee;}
 #freeform #alerts {background-color: #fbfcfd;}
 
+/*--------------- #slider ---------------*/
+#freeform #slider {height: 569px; top: -94px;}
+#freeform #slider .container {top: 0; left: 0; right: 0; bottom: 0; transform: none;}
+#freeform #slider h1 {width: auto; text-align: center; margin-top: 10px; position: absolute; top: 50%; left: 50%; transform: translate(-49.8%, -8%);}
+#freeform .bxslider li:after {background-image: none; background-color: #122336; opacity: 0.2;}
+#breadcrumbs{font-family: 'Open Sans'; font-weight: 700; font-size:12px;text-transform:capitalize; position: absolute; bottom: 27px; left: 16px; color:#fff;}
+#breadcrumbs p{margin:0}
+#breadcrumbs a{text-decoration:none;color:#fff;}
+#breadcrumbs a:after {content: ">"; margin: 0 1px 0 2px;}
+
 /*--------------- #flyout ---------------*/
+#side-content {margin-right: 29px;}
+#flyout-header {font-family: 'Liberator'; font-size: 28px; line-height: 30px; color: #1d2734;}
 #flyout{margin:0;padding:0}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
-#flyout span{text-decoration:none;padding:15px 20px;display:block;border-bottom:1px solid #000}
+#flyout span{font-size: 16px; line-height: 22px; color: #1d2734; text-transform: capitalize; text-decoration:none;padding:0;display:block;border-bottom:1px solid #000}
 #flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
 #flyout ul a,
 #flyout ul span{font-size:13px;padding:10px 15px;width:180px}
 #flyout li:hover > ul{display:block}
-
-/*--------------- #breadcrumbs ---------------*/
-#breadcrumbs{font-size:13px;text-transform:capitalize}
-#breadcrumbs p{margin:0}
-#breadcrumbs a{text-decoration:none}
-#breadcrumbs i{font-size:13px;margin:0 4px}
 
 /* -----------------------------------------
 
