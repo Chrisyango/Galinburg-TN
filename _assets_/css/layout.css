@@ -387,7 +387,10 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 #flyout li:last-of-type span {border-bottom: none;}
 #flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa;z-index: 51;}
 #flyout ul a,
-#flyout ul span{font-size:13px;padding:10px 15px;width:180px}
+#flyout ul span{font-size:14px;padding:10px 15px;width:160px}
+#flyout ul li {padding: 0;}
+#flyout ul li a,
+#flyout ul li span {border-bottom:1px solid rgba(255,255,255,0.2)}
 #flyout li:hover > ul{display:block}
 
 /*--------------- inner ---------------*/
@@ -482,6 +485,7 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	/*--------------- #flyout ---------------*/
 	#flyout li:hover {background-color: #1d342f;}
 	#flyout li:hover a {color: #fff;}
+	#flyout ul {background-color: #1d342f;}
 	#side-content {margin-right: 29px;}
 
 	/*--------------- inner ---------------*/
