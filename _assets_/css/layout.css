@@ -689,6 +689,11 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	/*--------------- #content ---------------*/
 	#welcome h2 {font-size: 45px; line-height: 45px; margin-bottom: 5px;}
 	#welcome h2 span {font-size: 14px; margin-bottom: 5px;}
+	#welcome-left .img-container .welcome-img span {left: -70px;}
+	#welcome-left .img-container .welcome-img:last-of-type span {bottom: -25px;}
+	#welcome-left .img-container .welcome-img span,
+	#welcome-right .welcome-img span {font-size: 10px; line-height: 12px;}
+	#welcome-right .welcome-img span {bottom: -10px;}
 
 	#quick-links .img-container .quick-link-img {width: 240px; height: 350px; left: -24px;}
 	#quick-links .img-container .quick-link-img:last-of-type {width: 225px; height: 200px; left: 31px;}
@@ -698,6 +703,10 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#news-events a.btn:after {width: 50px; height: 50px; line-height: 50px;}
 	.news-link .news-link-info {position: static; width: 100%; padding: 15px;}
 	.news-link .news-link-img {width: 100%; height: 250px;}
+
+	#alerts {padding: 80px 0; margin-top: 50px;}
+	#alerts-bg {top: 48px;}
+	#alerts .img-container {display: none;}
 
 	footer h3 {font-size: 20px; line-height: 18px;}
 	#footer-links ul li a {font-size: 12px; line-height: 16px;}
