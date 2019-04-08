@@ -40,8 +40,8 @@ h3{font-size:28px}
 h4{font-size:21px}
 h5{font-size:16px}
 h6{font-size:14px}
-.header{font-size:28px;color:#111;margin-bottom:30px}
-.subheader{font-size:21px;color:#111;margin-bottom:30px}
+.header{font-family:'Liberator';font-size:48px;line-height:95px;color:#1d2734;display:block;margin-left:-3px;}
+.subheader{font-family:'Open Sans'; font-weight: 700; font-size:16px; line-height: 26px; color:#1d2734; text-transform: capitalize; display: block; margin: 45px 0 25px;}
 p{margin:0 0 30px 0}
 em{font-style:italic}
 strong,b{font-weight:bold}
@@ -365,6 +365,7 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 #freeform main {margin-top: -94px;}
 #side-background {position: absolute; top: 0; bottom: 0; left: 0; background-color: #d4e0ee;}
 #freeform #alerts {background-color: #fbfcfd;}
+#freeform #top-footer {padding-top: 100px;}
 
 /*--------------- #slider ---------------*/
 #freeform #slider {height: 569px; top: -94px;}
@@ -378,15 +379,24 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 
 /*--------------- #flyout ---------------*/
 #side-content {margin-right: 29px;}
-#flyout-header {font-family: 'Liberator'; font-size: 28px; line-height: 30px; color: #1d2734;}
+#flyout-header {font-family: 'Liberator'; font-size: 28px; line-height: 30px; color: #1d2734; display: block; margin: 96px 0 23px;}
 #flyout{margin:0;padding:0}
-#flyout li{margin:0;display:block;position:relative}
+#flyout li{margin:0;display:block;position:relative; padding-right: 35px; transition: 0.3s all;}
 #flyout a,
-#flyout span{font-size: 16px; line-height: 22px; color: #1d2734; text-transform: capitalize; text-decoration:none;padding:0;display:block;border-bottom:1px solid #000}
-#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
+#flyout span{font-size: 16px; line-height: 22px; color: #1d2734; text-transform: capitalize; text-decoration:none;padding:19px 40px 20px 0;display:block;border-bottom:1px solid rgba(0,0,0,.1)}
+#flyout li:last-of-type a,
+#flyout li:last-of-type span {border-bottom: none;}
+#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa;z-index: 51;}
 #flyout ul a,
 #flyout ul span{font-size:13px;padding:10px 15px;width:180px}
 #flyout li:hover > ul{display:block}
+
+/*--------------- inner ---------------*/
+#entry {padding: 72px 0 72px 84px; margin-right: -84px;}
+#post p {font-family: 'Open Sans'; font-size: 16px; line-height: 26px; color: #050505; padding-right: 25px;}
+#post ul {padding: 0; margin: -5px 0 0 36px;}
+#post ul li {font-family: 'Open Sans'; font-size: 16px; line-height: 26px; color: #1d2734; margin-bottom: 15px;}
+#post .important {font-family: 'Georgia'; font-size: 46px; line-height: 46px; color: #1d2734; margin: 31px 0 38px; display: block;}
 
 /* -----------------------------------------
 
@@ -471,6 +481,10 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#nav ul ul li a {font-size: 14px;}
 	#nav ul ul {top: 0; left: 100%;}
 
+	/*--------------- #flyout ---------------*/
+	#flyout li:hover {background-color: #1d342f;}
+	#flyout li:hover a {color: #fff;}
+
 }
 
 @media only screen and (max-width:1440px) {
@@ -484,6 +498,9 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#welcome-right .welcome-img {width: auto;}
 	
 	#quick-links-wrapper {left: 0;}
+
+	/*--------------- inner ---------------*/
+	#freeform #logo {left: 0;}
 
 }
 
@@ -518,6 +535,9 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#footer-links {float: none; width: 100%; text-align: left;}
 	#i-want-to {float: left;}
 	#contact {float: none; margin: 53px 0 0; display: inline-block;}
+
+	/*--------------- inner ---------------*/
+	#freeform .social-links {margin-left: 15px;}
 
 }
 
@@ -622,6 +642,13 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#department-links {margin-right: 36px;}
 	#department-links ul,
 	#i-want-to ul {column-gap: 80px;}
+
+	/*--------------- inner ---------------*/
+	#freeform header {padding: 0;}
+	#freeform #logo {top: 15px; width: 160px;}
+	#freeform #search-toggle-mobile,
+	#freeform #nav-toggle {margin-top: 20px;}
+	#freeform nav {margin-top: 115px;}
 
 }
 

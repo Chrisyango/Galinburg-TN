@@ -142,12 +142,21 @@
 					<span id="flyout-header">related links</span>
 					<div id="flyout-wrap">
 						<ul id="flyout">
-							<li><a href="./">ipsum adipiscing purus euismod ligula</a></li>
-							<li><a href="./">nullam vestibulum porta amet ornare</a></li>
-							<li><a href="./">page title here lorem ipsum malesuada</a></li>
-							<li><a href="./">purus lorem</a></li>
-							<li><a href="./">tristique pharetra</a></li>
-							<li><a href="./">amet justo ipsum risus dapibus vulputate</a></li>
+							<li class="fillLeft withPadding"><a href="./">ipsum adipiscing purus euismod ligula</a></li>
+							<li class="fillLeft withPadding"><a href="./">nullam vestibulum porta amet ornare</a></li>
+							<li class="fillLeft withPadding">
+								<a href="./">page title here lorem ipsum malesuada</a>
+								<ul>
+									<li><a href="./">this is a link</a></li>
+									<li><a href="./">this is a link</a></li>
+									<li><a href="./">this is a link</a></li>
+									<li><a href="./">this is a link</a></li>
+									<li><a href="./">this is a link</a></li>
+								</ul>
+							</li>
+							<li class="fillLeft withPadding"><a href="./">purus lorem</a></li>
+							<li class="fillLeft withPadding"><a href="./">tristique pharetra</a></li>
+							<li class="fillLeft withPadding"><a href="./">amet justo ipsum risus dapibus vulputate</a></li>
 						</ul><!-- /#flyout -->
 					</div><!-- /#flyout-wrap -->
 				</aside><!-- /#side-content -->
