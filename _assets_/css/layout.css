@@ -482,6 +482,8 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#quick-links .img-container .quick-link-img:last-of-type {width: 300px; height: 275px; top: 300px; left: 180px;}
 	a.quick-link {padding-left: 30px; padding-right: 30px;}
 
+	#alerts form {width: 75%; margin-left: 12.5%;}
+
 }
 
 @media only screen and (max-width:991px) {
@@ -573,6 +575,15 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#events a.btn {width: 220px;}
 	#events h2 {margin-bottom: 30px;}
 
+	#alerts .img-container {top: -20px;}
+	#alerts .img-container .alerts-img:after {border: 5px solid #fff;}
+	#alerts form {width: unset; margin-left: unset;}
+	#alerts label {font-size: 44px; line-height: 60px; margin: 0;}
+	#alerts label span {font-size: 17px;}
+	#alerts input {height: 60px; padding-right: 210px; font-size: 17px;}
+	#alerts input::placeholder {font-size: 17px;}
+	#alerts button {height: 60px; line-height: 60px; font-size: 22px; width: 180px;}
+
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -610,7 +621,7 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	a.quick-link h3 {font-size: 24px; margin: 15px 0 0;}
 	a.quick-link span {font-size: 11px;}
 
-	#news-events h2 {font-size: 40px; line-height: 55px;}
+	#news-events h2 {font-size: 38px; line-height: 55px;}
 	#news-events a.btn {font-size: 20px; height: 55px; line-height: 60px;}
 	#news-events a.btn:after {width: 55px; height: 55px; line-height: 55px;}
 	#news a.btn {width: 160px;}
@@ -624,6 +635,14 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	.news-link-info a {font-size: 12px;}
 
 	#events a.btn {width: 200px;}
+
+	#alerts .img-container .alerts-img:after {border: 2px solid #fff;}
+	#alerts label {font-size: 38px; line-height: 55px;}
+	#alerts label span {font-size: 16px;}
+	#alerts input {height: 50px; padding: 0 205px 0 15px; font-size: 16px;}
+	#alerts input::placeholder {font-size: 16px;}
+	#alerts button {height: 50px; line-height: 50px; font-size: 20px;}
+	#alerts form>span {font-size: 14px;}
 
 }
 
