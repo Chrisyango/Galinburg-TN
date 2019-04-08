@@ -370,7 +370,7 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 /*--------------- #slider ---------------*/
 #freeform #slider {height: 569px; top: -94px;}
 #freeform #slider .container {top: 0; left: 0; right: 0; bottom: 0; transform: none;}
-#freeform #slider h1 {width: auto; text-align: center; margin-top: 10px; position: absolute; top: 50%; left: 50%; transform: translate(-49.8%, -8%);}
+#freeform #slider h1 {width: 100%; text-align: center; margin-top: 10px; position: absolute; top: 50%; left: 50%; transform: translate(-49.8%, -8%);}
 #freeform .bxslider li:after {background-image: none; background-color: #122336; opacity: 0.2;}
 #breadcrumbs{font-family: 'Open Sans'; font-weight: 700; font-size:12px;text-transform:capitalize; position: absolute; bottom: 27px; left: 16px; color:#fff;}
 #breadcrumbs p{margin:0}
