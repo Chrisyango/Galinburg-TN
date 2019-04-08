@@ -378,7 +378,6 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 #breadcrumbs a:after {content: ">"; margin: 0 1px 0 2px;}
 
 /*--------------- #flyout ---------------*/
-#side-content {margin-right: 29px;}
 #flyout-header {font-family: 'Liberator'; font-size: 28px; line-height: 30px; color: #1d2734; display: block; margin: 96px 0 23px;}
 #flyout{margin:0;padding:0}
 #flyout li{margin:0;display:block;position:relative; padding-right: 35px; transition: 0.3s all;}
@@ -392,7 +391,6 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 #flyout li:hover > ul{display:block}
 
 /*--------------- inner ---------------*/
-#entry {padding: 72px 0 72px 84px; margin-right: -84px;}
 #post p {font-family: 'Open Sans'; font-size: 16px; line-height: 26px; color: #050505; padding-right: 25px;}
 #post ul {padding: 0; margin: -5px 0 0 36px;}
 #post ul li {font-family: 'Open Sans'; font-size: 16px; line-height: 26px; color: #1d2734; margin-bottom: 15px;}
@@ -484,6 +482,10 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	/*--------------- #flyout ---------------*/
 	#flyout li:hover {background-color: #1d342f;}
 	#flyout li:hover a {color: #fff;}
+	#side-content {margin-right: 29px;}
+
+	/*--------------- inner ---------------*/
+	#entry {padding: 72px 0 72px 84px; margin-right: -84px;}
 
 }
 
@@ -576,17 +578,20 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#nav ul ul{left:0}
 	#nav .toggle,
 	#nav .toggle2,
-	#flyout .toggle{position:absolute;right:0;top:0;background:rgba(0,0,0,.2)}
+	#flyout .toggle{position:absolute;right:15px;top:0;background:rgba(0,0,0,.2)}
 	#nav li li:hover > a{background:none;color:#fff}
 
-	#flyout{display:none}
-	#flyout li{}
+	#flyout-wrap {background-color:#1d342f; margin-top: 15px;}
+	#flyout{display:none;}
+	#flyout li{padding-right: 15px;}
 	#flyout li a,
-	#flyout li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#flyout li span{padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px;color:#fff;}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
 	#flyout ul a,
 	#flyout ul span{width:100%}
 	#flyout li:hover > ul{display:none}
+	#flyout-header {display: none;}
+	#flyout-toggle {font-size: 16px; padding: 15px;color:#fff;}
 
 	/*--------------- #slider ---------------*/
 	#slider .container {transform: translate(-50%, -25%);}
