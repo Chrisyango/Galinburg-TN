@@ -214,8 +214,9 @@ header .container {position: relative;}
 
 nav,
 #nav {display: inline-block; margin: 0; padding: 0; font-size: 0;}
-#nav li {display: inline-block; margin: 0;}
-#nav li a {display: block; font-size: 16px; font-weight: 700; line-height: 15px; letter-spacing: 0.05em; color: #fff; text-transform: uppercase; text-decoration: none; margin: 0 13px 0 34px;}
+#nav li {position: relative; display: inline-block; margin: 0;}
+#nav li a,
+#nav li span {display: block; font-size: 16px; font-weight: 700; line-height: 15px; letter-spacing: 0.05em; color: #fff; text-transform: uppercase; text-decoration: none; margin: 0 13px 0 34px;}
 #nav ul {display: none; margin: 0; padding: 0;}
 
 .social-links {display: inline-block;}
@@ -444,6 +445,14 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#flyout .focused .toggle,#nav .focused .toggle2{-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
 	#flyout,#nav{display:block!important}
 
+	/*--------------- #nav ---------------*/
+	#nav li:hover>ul {display: block;}
+	#nav ul {text-align: left; position: absolute; top: 100%; left: 34px; background-color: #26362f; width: 165px;}
+	#nav ul li {display: block; border-bottom: 1px solid rgba(0,0,0,.2);}
+	#nav ul li a {margin: 0; padding: 10px 15px; font-size: 15px; text-transform: capitalize;}
+	#nav ul ul li a {font-size: 14px;}
+	#nav ul ul {top: 0; left: 100%;}
+
 }
 
 @media only screen and (max-width:1440px) {
@@ -465,6 +474,9 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	/*--------------- #nav ---------------*/
 	#logo {width: 210px; margin: 49px 0;}
 	#nav li a {margin-left: 10px; margin-right: 10px; font-size: 15px;}
+	#nav ul {left: 11px;}
+	#nav ul li a {font-size: 14px;}
+	#nav ul li li a {font-size: 13px;}
 	.social-links a {font-size: 18px;}
 	#search-toggle {font-size: 20px; margin-left: 20px}
 
@@ -484,6 +496,11 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 
 	#alerts form {width: 75%; margin-left: 12.5%;}
 
+	#top-footer {text-align: center; padding: 50px 0;}
+	#footer-links {float: none; width: 100%; text-align: left;}
+	#i-want-to {float: left;}
+	#contact {float: none; margin: 53px 0 0; display: inline-block;}
+
 }
 
 @media only screen and (max-width:991px) {
@@ -494,7 +511,7 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#freeform #formwizziwmorf tr,#freeform #formwizziwmorf tr td{display:block!important}
 	#freeform #formwizziwmorf tr table tr{display:table-row!important}
 	#freeform #formwizziwmorf tr table td{display:table-cell!important}
-	.floating-share-btn{top:unset;bottom:0;padding:10.5px;font-size:11px}
+	.floating-share-btn{top:unset;bottom:82px;padding:10.5px;font-size:11px}
 
 	/*--------------- #nav ---------------*/
 	header {background-color: #26362f;}
@@ -545,7 +562,7 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#welcome {padding-top: 50px;}
 	#welcome h2 {font-size: 62px; line-height: 62px;}
 	#welcome h2 span {font-size: 16px; line-height: 20px; margin-bottom: 12px;}
-	#welcome-left .img-container {width: 55%; left: 32px;}
+	#welcome-left .img-container {width: 55%; left: 0; padding-left: 40px;}
 	#welcome-right {width: 40%; float: right; top: -190px;}
 	#welcome-right .welcome-img {margin-top: 0; width: 100%; height: unset; padding-bottom: 100%;}
 	#welcome-right .welcome-img span {transform: rotate(0); top: unset; left: 15px; bottom: -30px;}
@@ -584,6 +601,10 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#alerts input::placeholder {font-size: 17px;}
 	#alerts button {height: 60px; line-height: 60px; font-size: 22px; width: 180px;}
 
+	#department-links {margin-right: 36px;}
+	#department-links ul,
+	#i-want-to ul {column-gap: 80px;}
+
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -609,7 +630,7 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#welcome-left a {font-size: 14px;}
 	#welcome-left a span {font-size: 16px;}
 	#welcome-left .img-container {width: 100%; top: -55px;}
-	#welcome-right {float: none; width: 70%; top: 50px;}
+	#welcome-right {float: none; width: 67%; top: 50px;}
 	#welcome-right .welcome-img {padding-bottom: 75%;}
 
 	#quick-links {padding-top: 125px;}
@@ -636,6 +657,7 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 
 	#events a.btn {width: 200px;}
 
+	#alerts-whitespace {bottom: -1px;}
 	#alerts .img-container .alerts-img:after {border: 2px solid #fff;}
 	#alerts label {font-size: 38px; line-height: 55px;}
 	#alerts label span {font-size: 16px;}
@@ -643,6 +665,11 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#alerts input::placeholder {font-size: 16px;}
 	#alerts button {height: 50px; line-height: 50px; font-size: 20px;}
 	#alerts form>span {font-size: 14px;}
+
+	footer h3 {font-size: 22px; line-height: 20px;}
+	#department-links {margin-bottom: 50px;}
+	#revize-logo span:first-of-type,
+	#revize-logo span:last-of-type {float: none; display: block;}
 
 }
 
@@ -671,6 +698,16 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#news-events a.btn:after {width: 50px; height: 50px; line-height: 50px;}
 	.news-link .news-link-info {position: static; width: 100%; padding: 15px;}
 	.news-link .news-link-img {width: 100%; height: 250px;}
+
+	footer h3 {font-size: 20px; line-height: 18px;}
+	#footer-links ul li a {font-size: 12px; line-height: 16px;}
+	#department-links ul,
+	#i-want-to ul {column-gap: 25px;}
+	#footer-logo {width: 250px; height: 94px;}
+	#contact-info {top: -11px; right: 4px;}
+	#contact-info span {font-size: 12px; line-height: 16px;}
+	#revize-logo span:last-of-type,
+	#revize-logo span:last-of-type a:first-of-type {font-size: 12px;}
 
 }
 

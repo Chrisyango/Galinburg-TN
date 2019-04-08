@@ -278,9 +278,9 @@
 </main>
 
 <footer>
-	<section id="top-footer" class="clearfix">
+	<section id="top-footer">
 		<div class="container">
-			<section id="footer-links">
+			<section id="footer-links" class="clearfix">
 				<div id="department-links">
 					<h3>departments</h3>
 					<ul>
@@ -336,7 +336,7 @@
 	<section id="revize-logo">
 		<div class="container">
 			<span>&copy; 2019 Gatlinburg TN. All Rights reserved.</span>
-			<span>Powered by <a href="https://www.revize.com/" id="revize-logo">revize</a>, The Government Website Experts. <a href="./">login</a></span>
+			<span>Powered by <a href="https://www.revize.com/">revize</a>, The Government Website Experts. <a href="./">login</a></span>
 		</div><!-- /.container -->
 	</section><!-- /#revize-logo -->
 </footer>
