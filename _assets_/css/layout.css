@@ -356,6 +356,17 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 #inner
 
 -----------------------------------------*/
+
+#freeform header {background-color: #1d2734; padding: 37px 0 33px;}
+#freeform #logo {width: 216px; position: absolute; top: -7px; left: -28px; margin: 0;}
+#freeform .social-links {margin-left: 121px;}
+#freeform #search-toggle {margin-top: 0;}
+#freeform .bxslider li:after {background-image: none; background-color: #122336; opacity: 0.2;}
+
+#side-background {position: absolute; top: 0; bottom: 0; left: 0; background-color: #d4e0ee;}
+#freeform #alerts {background-color: #fbfcfd;}
+
+/*--------------- #flyout ---------------*/
 #flyout{margin:0;padding:0}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
@@ -365,6 +376,7 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 #flyout ul span{font-size:13px;padding:10px 15px;width:180px}
 #flyout li:hover > ul{display:block}
 
+/*--------------- #breadcrumbs ---------------*/
 #breadcrumbs{font-size:13px;text-transform:capitalize}
 #breadcrumbs p{margin:0}
 #breadcrumbs a{text-decoration:none}
