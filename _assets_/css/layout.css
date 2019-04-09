@@ -252,7 +252,7 @@ header nav,
 #welcome-left .img-container .welcome-img{position:relative;top:95px;left:0;width:55.4%;padding-bottom:44.3%;float:left}
 #welcome-left .img-container .welcome-img:last-of-type{width:30.3%;top:197px;left:unset;margin-left:9.5%}
 #welcome-left .img-container .welcome-img span{display:inline-block;position:absolute;bottom:49px;left:-78px;font-size:12px;line-height:24px;letter-spacing:0.1em;font-weight:700;color:#1d2734;text-transform:uppercase;transform:rotate(-90deg)}
-#welcome-left .img-container .welcome-img:last-of-type span{transform:rotate(0);bottom:-37px;left:5px}
+#welcome-left .img-container .welcome-img:last-of-type span{transform:rotate(0);bottom:-45px;left:5px}
 #welcome-right .welcome-img{position:relative;width:630px;height:1094px;margin-top:-213px;z-index:51}
 #welcome-right .welcome-img:after{content:'';position:absolute;top:-1px;bottom:-1px;left:-1px;right:-1px;border:11px solid #fff}
 #welcome-right .welcome-img span{display:inline-block;position:absolute;top:191px;left:-79px;font-size:12px;line-height:24px;letter-spacing:0.1em;font-weight:700;color:#1d2734;text-transform:uppercase;transform:rotate(-90deg)}
@@ -630,7 +630,7 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	a.quick-link{padding:30px}
 	a.quick-link h3{font-size:28px}
 
-	#news-events h2{font-size:44px;line-height:60px;margin-bottom:0}
+	#news-events h2{position:relative;top:-25px;left:25px;display:inline-block;font-size:44px;line-height:60px;margin-bottom:0}
 	#news-events a.btn{font-size:22px;height:60px;line-height:65px}
 	#news-events a.btn:after{height:60px;line-height:60px}
 	#news a.btn{width:180px}
@@ -641,7 +641,8 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	.news-link:first-of-type .news-link-info h3{font-size:30px;line-height:30px}
 	.news-link-info a{font-size:13px}
 	.news-link-wrapper{padding:0}
-
+	#news-circle,
+	#events-circle{display:inline-block}
 	#events{padding-top:58px}
 	#events a.btn{width:220px}
 	#events h2{margin-bottom:30px}
