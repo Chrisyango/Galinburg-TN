@@ -340,7 +340,7 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 #i-want-to ul{column-gap:82px}
 
 #contact{float:right;margin:53px 31px 0 0}
-#footer-logo{width:314px;height:118px}
+#footer-logo{display:block;width:314px;height:118px}
 #contact-info{float:right;text-align:center;position:relative;top:-4px;right:11px}
 #contact-info span{display:block;font-size:14px;line-height:22px;color:#77828f}
 #contact-info span:first-of-type{font-weight:700;text-transform:uppercase}

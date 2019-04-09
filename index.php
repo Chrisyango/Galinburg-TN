@@ -386,7 +386,7 @@
 			</nav><!-- /#footer-links -->
 
 			<section id="contact">
-				<div id="footer-logo" style="background:url('./_assets_/images/footer-logo.png') center no-repeat;background-size:cover;"></div>
+				<a href="./" id="footer-logo" style="background:url('./_assets_/images/footer-logo.png') center no-repeat;background-size:cover;"></a>
 				<div id="contact-info">
 					<span>contact city hall</span>
 					<span>1230 East Parkway</span>
