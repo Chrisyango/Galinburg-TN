@@ -344,7 +344,7 @@
 <footer>
 	<section id="top-footer">
 		<div class="container">
-			<section id="footer-links" class="clearfix">
+			<nav id="footer-links" class="clearfix">
 				<div id="department-links">
 					<h3>departments</h3>
 					<ul>
@@ -383,7 +383,7 @@
 						<li><a href="./">dolor sit amet</a></li>
 					</ul>
 				</div>
-			</section><!-- /#footer-links -->
+			</nav><!-- /#footer-links -->
 
 			<section id="contact">
 				<div id="footer-logo" style="background:url('./_assets_/images/footer-logo.png') center no-repeat;background-size:cover;"></div>
