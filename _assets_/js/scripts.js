@@ -223,6 +223,9 @@
 			autoHeight: true,
 			navText: ['<i class="fa fa-caret-left"></i>', '<i class="fa fa-caret-right"></i>'],
 			margin: 0,
+			autoplay:true,
+			autoplayTimeout:7000,
+			autoplayHoverPause:true,
 			responsive: {
 				0: {
 					items: newsItem(1),
