@@ -385,12 +385,11 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 #flyout span{font-size: 16px; line-height: 22px; color: #1d2734; text-transform: capitalize; text-decoration:none;padding:19px 40px 20px 0;display:block;border-bottom:1px solid rgba(0,0,0,.1)}
 #flyout li:last-of-type a,
 #flyout li:last-of-type span {border-bottom: none;}
-#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa;z-index: 51;}
+#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;z-index: 51;}
 #flyout ul a,
 #flyout ul span{font-size:14px;padding:10px 15px;width:160px}
 #flyout ul li {padding: 0;}
 #flyout ul li a,
-#flyout ul li span {border-bottom:1px solid rgba(255,255,255,0.2)}
 #flyout li:hover > ul{display:block}
 
 /*--------------- inner ---------------*/
@@ -486,6 +485,7 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#flyout li:hover {background-color: #1d342f;}
 	#flyout li:hover a {color: #fff;}
 	#flyout ul {background-color: #1d342f;}
+	#flyout ul li span {border-bottom:1px solid rgba(255,255,255,0.2)}
 	#side-content {margin-right: 29px;}
 
 	/*--------------- inner ---------------*/
@@ -507,6 +507,7 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 
 	/*--------------- inner ---------------*/
 	#freeform #logo {left: 0;}
+	#entry {padding: 72px 0; margin: 0;}
 
 }
 
@@ -651,6 +652,9 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#department-links {margin-right: 36px;}
 	#department-links ul,
 	#i-want-to ul {column-gap: 80px;}
+	#footer-logo {width: 250px; height: 94px;}
+	#contact-info {top: -11px; right: 4px;}
+	#contact-info span {font-size: 12px; line-height: 16px;}
 
 	/*--------------- inner ---------------*/
 	#freeform header {padding: 0;}
@@ -658,6 +662,10 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#freeform #search-toggle-mobile,
 	#freeform #nav-toggle {margin-top: 20px;}
 	#freeform nav {margin-top: 115px;}
+	#entry {padding: 30px 0;}
+	#freeform #top-footer {padding-top: 0;}
+	.header {font-size: 44px; line-height: 60px;}
+	#post .important {font-size: 42px; line-height: 42px;}
 
 }
 
@@ -725,6 +733,12 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#revize-logo span:first-of-type,
 	#revize-logo span:last-of-type {float: none; display: block;}
 
+	/*--------------- inner ---------------*/
+	.header {font-size: 38px; line-height: 55px;}
+	#post .important {font-size: 36px; line-height: 36px;}
+	#post p {font-size: 14px;}
+	#post ul li {font-size: 14px;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -766,12 +780,9 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#footer-links ul li a {font-size: 12px; line-height: 16px;}
 	#department-links ul,
 	#i-want-to ul {column-gap: 25px;}
-	#footer-logo {width: 250px; height: 94px;}
-	#contact-info {top: -11px; right: 4px;}
-	#contact-info span {font-size: 12px; line-height: 16px;}
 	#revize-logo span:last-of-type,
 	#revize-logo span:last-of-type a:first-of-type {font-size: 12px;}
-
+	
 }
 
 @media print {
