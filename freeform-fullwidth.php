@@ -120,7 +120,7 @@
 
 	<div class="container">
 		<h1 id="page-title">page title here</h1>
-		<section id="breadcrumbs">
+		<nav id="breadcrumbs">
 			<p>
 				<a href="./">
 					home
@@ -130,7 +130,7 @@
 				</a>
 				page title here lorem ipsum
 			</p>
-		</section><!-- /#breadcrumbs -->
+		</nav><!-- /#breadcrumbs -->
 	</div><!-- /.container -->
 </section><!-- /#slider -->
 

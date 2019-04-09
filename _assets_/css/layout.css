@@ -212,7 +212,7 @@ header .container{position:relative}
 .toggle,
 .toggle2{display:none}
 
-nav,
+header nav,
 #nav{display:inline-block;margin:0;padding:0;font-size:0}
 #nav li{position:relative;display:inline-block;margin:0}
 #nav li a,
@@ -575,7 +575,7 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	#search-toggle-mobile,
 	#nav-toggle{display:inline-block;cursor:pointer;height:45px;width:45px;line-height:45px;text-align:center}
 	.down-arrow{display:none} /* if not hidden above */
-	nav{width:100%}
+	header nav{width:100%}
 	#nav{display:none;text-align:left}
 	#nav li{float:none;display:block}
 	#nav li a,
