@@ -201,7 +201,7 @@ body{overflow-x:hidden}
 .text-overflow{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 #calendarEvent{left:0px;max-height:500px;overflow-y:auto;margin:0 auto}
 #skip{position:fixed;top:150px;left:-100%;-webkit-transition:all .3s ease-in;transition:all .3s ease-in;z-index:100}
-#skip:focus{left:15px;text-decoration:none;color:#fff;background-color:#c85530;padding:10px 20px}
+#skip:focus{left:15px;text-decoration:none;color:#fff;background-color:#acce4a;padding:10px 20px}
 
 
 /*--------------- #nav ---------------*/
@@ -224,7 +224,7 @@ nav,
 .social-links a:first-of-type{margin:0}
 
 #search-toggle{display:inline-block;font-size:22px;margin-top:81px;margin-left:29px;color:#fff}
-#search{display:none;position:absolute;top:100%;right:0;width:400px}
+#search{display:none;position:absolute;top:calc(100% + 15px);right:0;width:400px}
 #search label{display:none}
 #search input{height:40px;border-radius:4px}
 #search button{position:absolute;top:0;right:0;width:60px;height:40px;padding:0;font-size:16px;border-radius:0 4px 4px 0}
@@ -357,8 +357,8 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 
 -----------------------------------------*/
 
-#freeform header{background-color:#1d2734;padding:37px 0 33px}
-#freeform #logo{width:216px;position:absolute;top:-7px;left:-28px;margin:0}
+#freeform header{background-color:#1d2734}
+#freeform #logo{width:216px;position:absolute;top:30px;left:-28px;margin:0}
 #freeform .social-links{margin-left:121px}
 #freeform #search-toggle{margin-top:0}
 
@@ -491,6 +491,7 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	#side-content{margin-right:29px}
 
 	/*--------------- inner ---------------*/
+	#freeform #nav>li>a{padding:40px 0 39px}
 	#entry{padding:72px 0 72px 84px;margin-right:-84px}
 
 }
@@ -562,7 +563,7 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	.floating-share-btn{top:unset;bottom:82px;padding:10.5px;font-size:11px}
 
 	/*--------------- #nav ---------------*/
-	header{background-color:#26362f}
+	header{background-color:#1d2734}
 	#logo{margin:15px 0 0}
 	#search-toggle{display:none}
 	#search-toggle-mobile,
@@ -586,12 +587,14 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	#nav ul ul{left:0}
 	#nav .toggle,
 	#nav .toggle2,
-	#flyout .toggle{position:absolute;right:15px;top:0;background:rgba(0,0,0,.2)}
+	#flyout .toggle{position:absolute;right:0;top:0;background:rgba(0,0,0,.2)}
+	#flyout .toggle{right:15px}
 	#nav li li:hover > a{background:none;color:#fff}
 
 	#flyout-wrap{background-color:#1d342f;margin-top:15px}
 	#flyout{display:none}
-	#flyout li{padding-right:15px}
+	#flyout li,
+	#flyout ul li{margin-right:-15px;padding-right:15px}
 	#flyout li a,
 	#flyout li span{padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px;color:#fff}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
