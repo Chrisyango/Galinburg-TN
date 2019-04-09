@@ -269,38 +269,6 @@
 									</div><!-- /.news-link-info -->
 								</div><!-- /.news-link -->
 							</div><!-- /.news-link-wrapper -->
-							<div class="news-link-wrapper">
-								<div class="news-link">
-									<div class="news-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
-									<div class="news-link-info">
-										<span>march 11 2019</span>
-										<h3>cursus lorem inceptos consectetur et. fringilla magna commodo</h3>
-										<a href="./">read more &rarr;</a>
-									</div><!-- /.news-link-info -->
-								</div><!-- /.news-link -->
-								<div class="news-link">
-									<div class="news-link-img" style="background:url('./_assets_/images/news2.jpg') center no-repeat;background-size:cover;"></div>
-									<div class="news-link-info">
-										<span>march 5 2019</span>
-										<h3>donec id elit non mi porta gravida at eget metus</h3>
-										<p>
-											Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet,
-										</p>
-										<a href="./">read more &rarr;</a>
-									</div><!-- /.news-link-info -->
-								</div><!-- /.news-link -->
-								<div class="news-link">
-									<div class="news-link-img" style="background:url('./_assets_/images/news3.jpg') center no-repeat;background-size:cover;"></div>
-									<div class="news-link-info">
-										<span>march 2 2019</span>
-										<h3>duis mollis, est non commodo luctus, nisi erat porttitor</h3>
-										<p>
-											Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada
-										</p>
-										<a href="./">read more &rarr;</a>
-									</div><!-- /.news-link-info -->
-								</div><!-- /.news-link -->
-							</div><!-- /.news-link-wrapper -->
 						</div><!-- /#news-links -->
 						<a href="./" class="btn">all news</a>
 					</section><!-- /#news -->
@@ -308,7 +276,7 @@
 					<section id="events" class="col-md-4">
 						<div id="events-circle" style="background:url('./_assets_/images/events-circle.png') center no-repeat;background-size:cover;"></div>
 						<h2><span>get involved</span>latest events</h2>
-						<img src="./_assets_/images/events.png" alt="Events">
+						<div><img src="./_assets_/images/events.png" alt="Events"></div>
 						<a href="./" class="btn">all events</a>
 					</section><!-- /#events -->
 				</div><!-- /.row -->
