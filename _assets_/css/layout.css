@@ -366,6 +366,8 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 #side-background {position: absolute; top: 0; bottom: 0; left: 0; background-color: #d4e0ee;}
 #freeform #alerts {background-color: #fbfcfd;}
 #freeform #top-footer {padding-top: 100px;}
+#freeform.fullwidth #entry {padding: 72px 0; margin: 0;}
+#freeform.fullwidth #post p {padding: 0;}
 
 /*--------------- #slider ---------------*/
 #freeform #slider {height: 569px; top: -94px;}
@@ -508,6 +510,7 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	/*--------------- inner ---------------*/
 	#freeform #logo {left: 0;}
 	#entry {padding: 72px 0; margin: 0;}
+	#post p {padding: 0;}
 
 }
 
@@ -782,7 +785,7 @@ footer h3 {font-family: 'Liberator'; font-size: 24px; line-height: 22px; letter-
 	#i-want-to ul {column-gap: 25px;}
 	#revize-logo span:last-of-type,
 	#revize-logo span:last-of-type a:first-of-type {font-size: 12px;}
-	
+
 }
 
 @media print {
