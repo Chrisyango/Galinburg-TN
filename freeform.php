@@ -139,8 +139,8 @@
 		<div class="row">
 			<div class="col-md-3">
 				<aside id="side-content" class="fillLeft withPadding">
-					<span id="flyout-header">related links</span>
 					<div id="flyout-wrap">
+						<span id="flyout-header">related links</span>
 						<ul id="flyout">
 							<li class="fillLeft withPadding"><a href="./">ipsum adipiscing purus euismod ligula</a></li>
 							<li class="fillLeft withPadding"><a href="./">nullam vestibulum porta amet ornare</a></li>
