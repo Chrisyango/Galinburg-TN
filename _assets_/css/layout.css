@@ -672,10 +672,12 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	#freeform #search-toggle-mobile,
 	#freeform #nav-toggle{margin-top:20px}
 	#freeform nav{margin-top:115px}
+	#breadcrumbs{left:15px;right:15px}
 	#entry{padding:30px 0}
 	#freeform #top-footer{padding-top:50px}
 	.header{font-size:44px;line-height:60px}
 	#post .important{font-size:42px;line-height:42px}
+
 
 }
 
@@ -756,6 +758,13 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:479px){
+
+	/*--------------- #nav ---------------*/
+	#nav li a,
+	#nav li span,
+	#flyout li a,
+	#flyout li span{font-size:13px}
+	#flyout-toggle{font-size:14px}
 
 	/*--------------- #slider ---------------*/
 	#slider .container{transform:translate(-50%, -25%)}
