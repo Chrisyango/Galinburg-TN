@@ -182,7 +182,7 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 -----------------------------------------*/
 .floating-alert{position:fixed;z-index:99999;bottom:10px;margin:0;right:10px;border:3px solid #fff;background:#000;background:rgba(0,0,0,.9);box-shadow:0 0 10px rgba(0,0,0,.2);color:#fff;padding:30px;font-size:14px;width:350px}
 .floating-alert h4{color:#ffc140;margin:0 0 10px;font-family:'Lato',sans-serif;font-weight:bold;text-transform:uppercase;font-size:18px}
-.floating-alert .btn{padding:8px 10px;margin:20px 0 0 0!important}
+.floating-alert .btn{padding:8px 10px;margin:20px 0 0 0!important;font-size:14px;letter-spacing:0.15em}
 .floating-alert .close{padding:0;background:none!important;color:#fff!important;opacity:1;margin-right:20px}
 
 /* -----------------------------------------
@@ -216,7 +216,7 @@ header nav,
 #nav{display:inline-block;margin:0;padding:0;font-size:0}
 #nav li{position:relative;display:inline-block;margin:0}
 #nav li a,
-#nav li span{display:block;font-size:16px;font-weight:700;line-height:15px;letter-spacing:0.05em;color:#fff;text-transform:uppercase;text-decoration:none;margin:0 13px 0 34px}
+#nav li span{display:block;font-size:16px;font-weight:700;line-height:15px;letter-spacing:0.05em;color:#fff;text-transform:uppercase;text-decoration:none;margin:0 13px 0 34px;padding:15px 0}
 #nav ul{display:none;margin:0;padding:0}
 
 .social-links{display:inline-block}
@@ -224,9 +224,9 @@ header nav,
 .social-links a:first-of-type{margin:0}
 
 #search-toggle{display:inline-block;font-size:22px;margin-top:81px;margin-left:29px;color:#fff}
-#search{display:none;position:absolute;top:calc(100% + 15px);right:0;width:400px}
+#search{display:none;position:absolute;top:calc(100% + 15px);right:15px;width:400px}
 #search label{display:none}
-#search input{height:40px;border-radius:4px}
+#search input{height:40px;border-radius:4px;padding:0 75px 0 15px;}
 #search button{position:absolute;top:0;right:0;width:60px;height:40px;padding:0;font-size:16px;border-radius:0 4px 4px 0}
 
 /*--------------- #slider ---------------*/
@@ -252,7 +252,7 @@ header nav,
 #welcome-left .img-container .welcome-img{position:relative;top:95px;left:0;width:55.4%;padding-bottom:44.3%;float:left}
 #welcome-left .img-container .welcome-img:last-of-type{width:30.3%;top:197px;left:unset;margin-left:9.5%}
 #welcome-left .img-container .welcome-img span{display:inline-block;position:absolute;bottom:49px;left:-78px;font-size:12px;line-height:24px;letter-spacing:0.1em;font-weight:700;color:#1d2734;text-transform:uppercase;transform:rotate(-90deg)}
-#welcome-left .img-container .welcome-img:last-of-type span{transform:rotate(0);bottom:-45px;left:5px}
+#welcome-left .img-container .welcome-img:last-of-type span{transform:rotate(0);bottom:-37px;left:5px}
 #welcome-right .welcome-img{position:relative;width:630px;height:1094px;margin-top:-213px;z-index:51}
 #welcome-right .welcome-img:after{content:'';position:absolute;top:-1px;bottom:-1px;left:-1px;right:-1px;border:11px solid #fff}
 #welcome-right .welcome-img span{display:inline-block;position:absolute;top:191px;left:-79px;font-size:12px;line-height:24px;letter-spacing:0.1em;font-weight:700;color:#1d2734;text-transform:uppercase;transform:rotate(-90deg)}
@@ -289,7 +289,7 @@ a.quick-link span{font-size:12px;line-height:30.42px;letter-spacing:0.2em;font-w
 .news-link-info span{font-family:'Merriweather';font-size:18px;line-height:24px;font-style:italic;color:#4a7153;text-transform:capitalize;display:block;margin-top:-3px;margin-left:1px}
 .news-link-info h3{font-family:'Liberator';font-size:28px;line-height:28px;color:#1d2734;margin:16px 0 9px}
 .news-link-info p{font-size:16px;line-height:26px;color:#1d2734;margin-bottom:11px;margin-left:2px}
-.news-link-info a{font-size:14px;line-height:24px;letter-spacing:0.2em;color:#f27428;text-transform:uppercase;text-decoration:none}
+.news-link-info a{font-size:14px;line-height:24px;letter-spacing:0.2em;font-weight:700;color:#f27428;text-transform:uppercase;text-decoration:none}
 .news-link:first-of-type .news-link-img{width:100%;height:285px}
 .news-link:first-of-type .news-link-info{top:unset;bottom:-1px;right:-1px;width:467px;padding:27px 36px 23px}
 .news-link:first-of-type .news-link-info span{margin:0}
@@ -364,8 +364,7 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 
 #freeform main{margin-top:-94px}
 #side-background{position:absolute;top:0;bottom:0;left:0;background-color:#d4e0ee}
-#freeform #alerts{background-color:#fbfcfd}
-#freeform #top-footer{padding-top:100px}
+#freeform #top-footer{padding-top:100px;background-color:#fbfcfd}
 #freeform.fullwidth #entry{padding:72px 0;margin:0}
 #freeform.fullwidth #post p{padding:0}
 
@@ -425,7 +424,7 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 .btn-google:hover{border-color:#D34836}
 .btn-reddit:hover{border-color:#ff5700}
 .btn-lg{font-size:16px;padding:14px 30px;border:0;border-radius:3px}
-.floating-share-btn{position:fixed;z-index:99998;top:40%;right:0;line-height:1.8;border-radius:0;border:0;background:#26362f!important;color:#fff!important;padding:10px;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center}
+.floating-share-btn{position:fixed;z-index:99998;top:40%;right:0;line-height:1.8;border-radius:0;border:0;background:#26362f!important;color:#fff!important;padding:10px;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center;font-size:14px;letter-spacing:0.15em}
 .floating-share-btn span{display:block}
 
 /* -----------------------------------------
@@ -519,7 +518,7 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	
 	/*--------------- #nav ---------------*/
 	#logo{width:210px;margin:49px 0}
-	#nav li a{margin-left:10px;margin-right:10px;font-size:15px}
+	#nav li a{margin-left:7px;margin-right:7px;font-size:15px}
 	#nav ul{left:11px}
 	#nav ul li a{font-size:14px}
 	#nav ul li li a{font-size:13px}
@@ -544,7 +543,7 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 
 	#top-footer{text-align:center;padding:50px 0}
 	#footer-links{float:none;width:100%;text-align:left}
-	#i-want-to{float:left}
+	#i-want-to{float:left;margin-left:30px}
 	#contact{float:none;margin:53px 0 0;display:inline-block}
 
 	/*--------------- inner ---------------*/
@@ -560,7 +559,7 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	#freeform #formwizziwmorf tr,#freeform #formwizziwmorf tr td{display:block!important}
 	#freeform #formwizziwmorf tr table tr{display:table-row!important}
 	#freeform #formwizziwmorf tr table td{display:table-cell!important}
-	.floating-share-btn{top:unset;bottom:82px;padding:10.5px;font-size:11px}
+	.floating-share-btn{top:unset;bottom:82px;padding:10.5px;font-size:13px}
 
 	/*--------------- #nav ---------------*/
 	header{background-color:#1d2734}
@@ -630,11 +629,13 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	a.quick-link{padding:30px}
 	a.quick-link h3{font-size:28px}
 
+	#news-events{padding-top:75px}
 	#news-events h2{position:relative;top:-25px;left:25px;display:inline-block;font-size:44px;line-height:60px;margin-bottom:0}
 	#news-events a.btn{font-size:22px;height:60px;line-height:65px}
 	#news-events a.btn:after{height:60px;line-height:60px}
 	#news a.btn{width:180px}
 	#news>span{display:none}
+	#news-links{margin-top:30px}
 	#news-events h2 span,
 	.news-link-info span{font-size:17px}
 	.news-link-info h3{font-size:26px}
@@ -644,7 +645,7 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	.news-link-wrapper{padding:0}
 	#news-circle,
 	#events-circle{display:inline-block}
-	#events{padding-top:58px}
+	#events{padding-top:100px}
 	#events a.btn{width:220px}
 	#events h2{margin-bottom:30px}
 
@@ -657,7 +658,8 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	#alerts input::placeholder{font-size:17px}
 	#alerts button{height:60px;line-height:60px;font-size:22px;width:180px}
 
-	#department-links{margin-right:36px}
+	#footer-links ul {column-count: 1;}
+	#department-links{margin-right:30px}
 	#department-links ul,
 	#i-want-to ul{column-gap:80px}
 	#footer-logo{width:250px;height:94px}
@@ -671,7 +673,7 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	#freeform #nav-toggle{margin-top:20px}
 	#freeform nav{margin-top:115px}
 	#entry{padding:30px 0}
-	#freeform #top-footer{padding-top:0}
+	#freeform #top-footer{padding-top:50px}
 	.header{font-size:44px;line-height:60px}
 	#post .important{font-size:42px;line-height:42px}
 
@@ -775,9 +777,12 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	#quick-links .img-container .quick-link-img:last-of-type{width:225px;height:200px;left:31px}
 	a.quick-link h3{font-size:20px}
 
+	#news-events h2{font-size:34px;line-height:50px}
 	#news-events a.btn{font-size:18px;height:50px;line-height:55px}
 	#news-events a.btn:after{width:50px;height:50px;line-height:50px}
-	.news-link .news-link-info{position:static;width:100%;padding:15px}
+	#news-circle{width:90px;height:91px}
+	#events-circle{width:90px;height:74px}
+	.news-link .news-link-info{position:static;width:100%;padding:15px 0}
 	.news-link .news-link-img{width:100%;height:250px}
 
 	#alerts{padding:80px 0;margin-top:50px}
@@ -785,9 +790,9 @@ footer h3{font-family:'Liberator';font-size:24px;line-height:22px;letter-spacing
 	#alerts .img-container{display:none}
 
 	footer h3{font-size:20px;line-height:18px}
-	#footer-links ul li a{font-size:12px;line-height:16px}
 	#department-links ul,
-	#i-want-to ul{column-gap:25px}
+	#i-want-to ul{column-gap:50px}
+	#i-want-to{margin-left:15px}
 	#revize-logo span:last-of-type,
 	#revize-logo span:last-of-type a:first-of-type{font-size:12px}
 
